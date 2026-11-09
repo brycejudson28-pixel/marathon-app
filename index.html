@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="B&amp;A">
+<meta name="theme-color" content="#141413">
+<title>B&amp;A Training</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Inter:wght@400;500;600&display=swap">
+<style>
+:root{
+  --bg:#141413;--surf:#1F1E1B;--surf2:#262521;--text:#FAF9F5;--muted:#A8A59B;
+  --acc:#D97757;--acctext:#E08A6D;--line:#33322D;
+  --serif:'Source Serif 4',Georgia,serif;--sans:'Inter',system-ui,-apple-system,sans-serif;
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--text);font-family:var(--sans);-webkit-font-smoothing:antialiased}
+body{min-height:100vh;display:flex;flex-direction:column}
+main{flex:1;max-width:520px;width:100%;margin:0 auto;padding:calc(env(safe-area-inset-top) + 16px) 24px 110px;display:flex;flex-direction:column;gap:18px}
+.label{font-size:12px;font-weight:500;letter-spacing:.02em;color:var(--muted)}
+.num{font-family:var(--serif);font-weight:600;font-variant-numeric:tabular-nums}
+.row{display:flex;justify-content:space-between;align-items:baseline;gap:12px}
+.card{background:var(--surf);border:1px solid var(--line);border-radius:18px;padding:20px;display:flex;flex-direction:column;gap:14px}
+h1{margin:0;font-family:var(--serif);font-weight:600;letter-spacing:-.01em;line-height:1.05}
+h1.hero{font-size:44px}
+h1.page{font-size:34px}
+.muted{color:var(--muted)}
+.stats{display:flex;gap:28px;flex-wrap:wrap}
+.stat{display:flex;flex-direction:column;gap:2px}
+.stat .v{font-size:28px}
+.stat .u{font-size:15px;color:var(--muted);font-weight:400}
+.shoe{display:flex;align-items:center;gap:10px;background:var(--surf2);border-radius:12px;padding:12px 14px}
+.dot{width:12px;height:12px;border-radius:50%;flex:none}
+.alert{border:1px solid var(--acc);border-radius:14px;padding:14px 16px;display:flex;flex-direction:column;gap:6px}
+.alert b{font-size:13px;color:var(--acctext)}
+.alert div{font-size:14px;line-height:1.45}
+.strip{display:flex;gap:6px}
+.day{flex:1;min-height:64px;border:1px solid var(--line);border-radius:10px;padding:8px 0;display:flex;flex-direction:column;align-items:center;gap:2px;background:transparent;color:var(--text);font:inherit;cursor:pointer}
+.day .d{font-size:11px;font-weight:600}
+.day .n{font-family:var(--serif);font-size:16px;font-weight:600}
+.day .m{font-family:var(--serif);font-size:12px;color:var(--muted)}
+.day.past{background:var(--surf);color:var(--muted)}
+.day.today{background:var(--acc);border-color:var(--acc);color:#141413}
+.day.today .m{color:#141413}
+.day.sel{outline:2px solid var(--text);outline-offset:2px}
+.p{font-size:14px;line-height:1.45}
+.list{display:flex;flex-direction:column;gap:10px;margin:0;padding:0;list-style:none}
+.list li{font-size:14px;line-height:1.45}
+.wkrow{display:flex;gap:14px;align-items:flex-start;padding:12px 0;border-bottom:1px solid var(--line);background:none;border-left:0;border-right:0;border-top:0;color:var(--text);font:inherit;text-align:left;width:100%;cursor:pointer}
+.wkrow:last-child{border-bottom:0}
+.wkrow .date{width:48px;flex:none}
+.wkrow .date .n{font-family:var(--serif);font-size:20px;font-weight:600}
+.wkrow.istoday .date{color:var(--acctext)}
+.seg{display:flex;gap:3px}
+.seg div{flex:1;height:8px;border-radius:2px;background:var(--surf2)}
+.seg div.on{background:var(--acc)}
+.chart{position:relative;display:flex;gap:4px;height:132px}
+.bar{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;gap:6px}
+.bar i{display:block;width:70%;background:var(--muted);opacity:.55;border-radius:4px 4px 0 0}
+.bar span{font-size:10px;color:var(--muted);white-space:nowrap}
+.band{position:absolute;left:0;right:0;background:var(--acc);opacity:.25;border-radius:2px}
+.prog{height:4px;border-radius:2px;background:var(--surf2)}
+.prog i{display:block;height:4px;border-radius:2px;background:var(--acc)}
+nav{position:fixed;left:0;right:0;bottom:0;display:flex;justify-content:center;border-top:1px solid var(--line);background:var(--bg);padding:4px 8px calc(env(safe-area-inset-bottom) + 6px)}
+nav .in{display:flex;max-width:520px;width:100%}
+nav button{flex:1;min-height:56px;background:none;border:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;font:500 11px var(--sans);color:var(--muted);cursor:pointer}
+nav button[aria-current="page"]{color:var(--acctext)}
+.foot{font-size:11px;color:var(--muted);text-align:center}
+[hidden]{display:none!important}
+</style>
+</head>
+<body>
+<main id="app"><div class="label">Loading…</div></main>
+<nav aria-label="Sections"><div class="in">
+  <button data-tab="today" aria-current="page"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M12 8v4l3 2"/></svg>Today</button>
+  <button data-tab="week"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><rect x="4" y="5" width="16" height="15" rx="2"/><path d="M4 10h16M9 3v4M15 3v4"/></svg>Week</button>
+  <button data-tab="plan"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M5 19V9M10 19V5M15 19v-7M20 19v-4"/></svg>Plan</button>
+  <button data-tab="shoes"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 16h17a1 1 0 0 0 1-1c0-2-3-3-6-3l-3-5-3 1 1 3H6l-3-2z"/><path d="M3 16v2h18"/></svg>Shoes</button>
+</div></nav>
+<script>
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const DOW = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+const MON = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+const MONL = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+const parse = s => { const [y,m,d] = s.split('-').map(Number); return new Date(y, m-1, d); };
+const iso = d => `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+const daysBetween = (a,b) => Math.round((parse(b) - parse(a)) / 864e5);
+const short = s => { const d = parse(s); return `${DOW[d.getDay()].slice(0,3)} ${d.getDate()} ${MON[d.getMonth()]}`; };
+
+let P = null, tab = 'today', sel = null;
+const today = () => iso(new Date());
+
+function shoeChip(key){
+  const s = P.shoes[key]; if(!s) return '';
+  return `<div class="shoe"><span class="dot" style="background:${esc(s.color)}"></span><span style="font-size:15px;font-weight:600">${esc(s.name)}</span><span class="num muted" style="margin-left:auto;font-size:13px;font-weight:400">${Math.round(s.miles)} mi</span></div>`;
+}
+
+function dayCard(d, heading){
+  if(!d) return `<section class="card"><div class="label">${heading}</div><h1 class="hero">No session</h1><p class="p muted">Nothing in the plan for this date yet. It fills in at the Sunday review.</p></section>`;
+  const stats = [];
+  if(d.duration){ const [v,...u] = d.duration.split(' '); stats.push(`<div class="stat"><span class="v num">${esc(v)}<span class="u"> ${esc(u.join(' '))}</span></span><span class="label">Duration</span></div>`); }
+  if(d.distance_mi) stats.push(`<div class="stat"><span class="v num">~${d.distance_mi}<span class="u"> mi</span></span><span class="label">Distance</span></div>`);
+  if(d.pace) stats.push(`<div class="stat"><span class="v num">${esc(d.pace)}</span><span class="label">Pace</span></div>`);
+  if(d.hr) stats.push(`<div class="stat"><span class="v num">${esc(d.hr)}</span><span class="label">HR cap</span></div>`);
+  const steps = (d.steps||[]).map(s => `<li>${esc(s)}</li>`).join('');
+  return `<section class="card">
+    <div class="label">${heading}</div>
+    <h1 class="hero">${esc(d.title)}</h1>
+    ${stats.length ? `<div class="stats">${stats.join('')}</div>` : ''}
+    ${d.detail ? `<div class="p muted">${esc(d.detail)}${d.purpose ? ' ' + esc(d.purpose) + '.' : ''}</div>` : ''}
+    ${steps ? `<div class="label">Watch workout</div><ol class="list" style="padding-left:18px">${steps}</ol>` : ''}
+    ${d.shoe ? shoeChip(d.shoe) : ''}
+  </section>
+  ${d.check ? `<section class="alert"><b>Before you go</b><div>${esc(d.check)}</div></section>` : ''}`;
+}
+
+function strip(){
+  const t = today();
+  const total = P.days.reduce((a,d)=>a+(d.distance_mi||0),0);
+  const done = P.days.filter(d=>d.date<t).reduce((a,d)=>a+(d.distance_mi||0),0);
+  const cells = P.days.map(d => {
+    const dt = parse(d.date);
+    const cls = d.date === t ? 'today' : d.date < t ? 'past' : '';
+    const m = d.type === 'rest' ? 'Rest' : (d.distance_mi ? d.distance_mi : '');
+    return `<button class="day ${cls} ${sel===d.date?'sel':''}" data-date="${d.date}" aria-label="${short(d.date)}"><span class="d">${DOW[dt.getDay()][0]}</span><span class="n">${dt.getDate()}</span><span class="m">${m}</span></button>`;
+  }).join('');
+  return `<section style="display:flex;flex-direction:column;gap:10px">
+    <div class="row"><span class="label">This week</span><span class="num muted" style="font-size:13px;font-weight:400">~${done.toFixed(1).replace('.0','')} / ${total.toFixed(1)} mi planned</span></div>
+    <div class="strip">${cells}</div></section>`;
+}
+
+function header(){
+  const t = today(), d = parse(t);
+  const left = daysBetween(t, P.race.date);
+  return `<div class="row"><span class="label">B&amp;A · ${short(P.race.date)}</span><span class="num" style="font-size:14px;color:var(--acctext)">${left > 0 ? left + ' days' : left === 0 ? 'Race day' : 'Done'}</span></div>
+  <div style="display:flex;flex-direction:column;gap:4px"><div class="muted" style="font-size:15px">${DOW[d.getDay()]}, ${d.getDate()} ${MONL[d.getMonth()]}</div>
+  <div class="muted" style="font-size:13px">Week ${P.week.n} of ${P.plan_weeks} · ${esc(P.week.phase)}</div></div>`;
+}
+
+function viewToday(){
+  const t = today(); const show = sel || t;
+  const d = P.days.find(x => x.date === show);
+  const heading = show === t ? "Today's run" : short(show);
+  if(!d && show === t){
+    const next = P.days.find(x => x.date > t && x.type !== 'rest');
+    return header() + dayCard(null, heading) + (next ? dayCard(next, 'Next · ' + short(next.date)) : '') + strip();
+  }
+  let extra = '';
+  if(d && d.type === 'rest' && show === t){
+    const next = P.days.find(x => x.date > t && x.type !== 'rest');
+    if(next) extra = `<section class="card" style="padding:16px;gap:6px"><div class="row"><span class="label">Next run · ${short(next.date)}</span></div><div style="font-size:16px;font-weight:600">${esc(next.title)} · ${esc(next.duration||'')}</div>${next.shoe && P.shoes[next.shoe] ? `<div class="p muted">${esc(P.shoes[next.shoe].name)}</div>` : ''}</section>`;
+  }
+  return header() + dayCard(d, d && d.type==='rest' && show===t ? 'Today' : heading) + extra + strip();
+}
+
+function viewWeek(){
+  const t = today();
+  const rows = P.days.map(d => {
+    const dt = parse(d.date);
+    const sub = [d.duration, d.distance_mi ? '~'+d.distance_mi+' mi' : '', d.hr ? 'HR '+d.hr : ''].filter(Boolean).join(' · ');
+    const shoe = d.shoe && P.shoes[d.shoe] ? `<span class="dot" style="background:${esc(P.shoes[d.shoe].color)};width:9px;height:9px;display:inline-block;margin-right:6px"></span>${esc(P.shoes[d.shoe].name)}` : '';
+    return `<button class="wkrow ${d.date===t?'istoday':''}" data-date="${d.date}">
+      <div class="date"><div class="label">${DOW[dt.getDay()].slice(0,3)}</div><div class="n">${dt.getDate()}</div></div>
+      <div style="display:flex;flex-direction:column;gap:4px"><div style="font-size:16px;font-weight:600">${esc(d.title)}</div>
+      ${sub ? `<div class="p muted">${esc(sub)}</div>` : `<div class="p muted">${esc(d.detail||'')}</div>`}
+      ${shoe ? `<div class="p muted">${shoe}</div>` : ''}</div></button>`;
+  }).join('');
+  const nw = P.next_week;
+  return `<h1 class="page">This week</h1>
+  <div class="row"><span class="label">${short(P.week.start)} – ${short(P.week.end)}</span><span class="label">${esc(P.week.target_mi)} mi</span></div>
+  ${P.week.note ? `<p class="p muted" style="margin:0">${esc(P.week.note)}</p>` : ''}
+  <section class="card" style="padding:4px 20px">${rows}</section>
+  ${nw ? `<section class="card"><div class="row"><span class="label">${esc(nw.label)}</span><span class="label">${esc(nw.target_mi)} mi</span></div><ul class="list">${nw.items.map(i=>`<li>${esc(i)}</li>`).join('')}</ul></section>` : ''}`;
+}
+
+function viewPlan(){
+  const t = today();
+  const left = daysBetween(t, P.race.date);
+  const seg = Array.from({length:P.plan_weeks}, (_,i)=>`<div class="${i < P.week.n ? 'on':''}"></div>`).join('');
+  const H = 110, mx = 70, wm = P.weekly_miles || [];
+  const bars = wm.map(w => { const d = parse(w.week_of); return `<div class="bar"><i style="height:${Math.round(w.mi/mx*H)}px" title="${w.mi} mi"></i><span>${d.getDate()} ${MON[d.getMonth()]}</span></div>`; }).join('');
+  const [lo,hi] = P.target_band || [60,65];
+  const avg = wm.length ? (wm.reduce((a,w)=>a+w.mi,0)/wm.length).toFixed(0) : '–';
+  const prtLeft = P.prt.date ? daysBetween(t, P.prt.date) + '<span class="u muted" style="font-size:14px;font-weight:400"> days</span>' : 'TBD';
+  return `<h1 class="page">The plan</h1>
+  <div style="display:flex;gap:10px">
+    <section class="card" style="flex:1.3;padding:16px;gap:6px"><span class="label">${esc(P.race.name.replace(' Trail',''))}</span>
+      <div class="num" style="font-size:34px;color:var(--acctext)">${Math.max(left,0)}<span style="font-size:14px;color:var(--muted);font-weight:400"> days</span></div>
+      <div class="muted" style="font-size:13px">Goal ${esc(P.race.goal)} · ${esc(P.race.pace)}</div></section>
+    <section class="card" style="flex:1;padding:16px;gap:6px"><span class="label">${esc(P.prt.name)}</span>
+      <div class="num" style="font-size:34px">${prtLeft}</div>
+      <div class="muted" style="font-size:13px">Goal ${esc(P.prt.goal)}</div></section>
+  </div>
+  <section style="display:flex;flex-direction:column;gap:8px"><div class="row"><span class="label">Week ${P.week.n} of ${P.plan_weeks}</span><span class="label">${esc(P.week.phase)}</span></div><div class="seg">${seg}</div></section>
+  <section style="display:flex;flex-direction:column;gap:8px">
+    <div class="row"><span class="label">Weekly miles</span><span style="font-size:12px;color:var(--acctext)">Build target ${lo}–${hi}</span></div>
+    <div class="chart"><div class="band" aria-hidden="true" style="bottom:${Math.round(lo/mx*H)+22}px;height:${Math.round((hi-lo)/mx*H)}px"></div>${bars}</div>
+    <div class="muted" style="font-size:12px">Avg ${avg} mi/wk over these weeks.</div>
+  </section>
+  ${P.checkpoint ? `<section class="card" style="padding:16px;gap:6px"><div class="row"><span class="label">Next checkpoint</span><span class="label">${short(P.checkpoint.date)}</span></div><div class="p">${esc(P.checkpoint.text)}</div></section>` : ''}`;
+}
+
+function viewShoes(){
+  const rows = Object.values(P.shoes).map(s => {
+    const pct = Math.min(100, Math.round(s.miles / s.retire * 100));
+    return `<div style="display:flex;flex-direction:column;gap:6px;padding:4px 0">
+      <div style="display:flex;align-items:center;gap:8px"><span class="dot" style="background:${esc(s.color)};width:10px;height:10px"></span><span style="font-size:15px;font-weight:600">${esc(s.name)}</span><span class="num muted" style="margin-left:auto;font-size:13px;font-weight:400">${Math.round(s.miles)} / ~${s.retire}</span></div>
+      <div class="prog"><i style="width:${pct}%"></i></div><div class="muted" style="font-size:12px">${esc(s.role)}</div></div>`;
+  }).join('');
+  return `<h1 class="page">Shoes</h1><section class="card">${rows}</section><p class="foot">True miles, including pre-Strava offsets.</p>`;
+}
+
+function render(){
+  const v = {today:viewToday, week:viewWeek, plan:viewPlan, shoes:viewShoes}[tab]();
+  $('#app').innerHTML = v + `<p class="foot">Plan updated ${short(P.updated)}</p>`;
+  document.querySelectorAll('nav button').forEach(b => { if(b.dataset.tab === tab) b.setAttribute('aria-current','page'); else b.removeAttribute('aria-current'); });
+  document.querySelectorAll('[data-date]').forEach(b => b.onclick = () => { sel = b.dataset.date === today() ? null : b.dataset.date; tab = 'today'; render(); scrollTo(0,0); });
+}
+
+document.querySelectorAll('nav button').forEach(b => b.onclick = () => { tab = b.dataset.tab; if(tab==='today') sel=null; render(); scrollTo(0,0); });
+
+async function load(){
+  try{
+    const r = await fetch('plan.json', {cache:'no-store'});
+    P = await r.json();
+    render();
+  }catch(e){
+    $('#app').innerHTML = '<p class="p">Couldn’t load the plan. Check your connection and reopen.</p>';
+  }
+}
+document.addEventListener('visibilitychange', () => { if(!document.hidden && P){ render(); load(); } });
+load();
+if('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js');
+</script>
+</body>
+</html>
