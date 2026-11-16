@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10",
+  "updated": "2026-11-15",
   "race": {
     "name": "B&A Trail Marathon",
     "date": "2027-03-07",
@@ -14,99 +14,106 @@
   },
   "plan_weeks": 17,
   "week": {
-    "n": 1,
-    "phase": "Recovery",
-    "start": "2026-11-09",
-    "end": "2026-11-15",
-    "target_mi": "~19",
-    "note": "Easy = conversational, HR ≤145, no pace target. No strides. No lifting until the lifting plan is built."
+    "n": 2,
+    "phase": "Recovery → base",
+    "start": "2026-11-16",
+    "end": "2026-11-22",
+    "target_mi": "39",
+    "note": "Easy = HR ≤145, 8:15–9:00 or slower. Knee: stop and walk at 3/10, a limp, or pain that climbs. Missed runs aren't made up."
   },
   "days": [
     {
-      "date": "2026-11-09",
-      "type": "rest",
-      "title": "Rest",
-      "detail": "No running. Walk 20–30 min.",
-      "purpose": "Recovery after Harrisburg (day 1)",
-      "shoe": null
-    },
-    {
-      "date": "2026-11-10",
-      "type": "rest",
-      "title": "Rest",
-      "detail": "No running. Walk, or 20–30 min easy bike/swim (optional).",
-      "purpose": "Recovery (day 2)",
-      "shoe": null
-    },
-    {
-      "date": "2026-11-11",
+      "date": "2026-11-16",
       "type": "easy",
-      "title": "Easy run",
-      "duration": "30 min",
-      "distance_mi": 3.3,
+      "title": "Easy + strides",
+      "distance_mi": 4,
       "hr": "≤145",
-      "detail": "The first 10 min is the test: carry on only if everything feels even and normal.",
-      "purpose": "First run back after Harrisburg",
-      "check": "Pre-run check: 10 squats, 10 single-leg step-downs, 10 single-leg hops each side. Left and right must feel the same.",
-      "shoe": "glycerin"
-    },
-    {
-      "date": "2026-11-12",
-      "type": "easy",
-      "title": "Easy run",
-      "duration": "30–35 min",
-      "distance_mi": 3.5,
-      "hr": "≤145",
-      "detail": "Conversational, no pace target.",
-      "purpose": "Recovery",
-      "check": "Morning check first: stairs feel normal.",
+      "detail": "4 mi easy, then 6 × 20 s strides with full recovery.",
+      "purpose": "Day 8: first strides after Harrisburg",
+      "check": "Knee ≤1/10 on stairs this morning.",
       "shoe": "gray"
     },
     {
-      "date": "2026-11-13",
+      "date": "2026-11-17",
       "type": "easy",
       "title": "Easy run",
-      "duration": "30–35 min",
-      "distance_mi": 3.5,
+      "distance_mi": 5,
       "hr": "≤145",
-      "detail": "Or take it off if the legs are still heavy.",
+      "detail": "Conversational.",
+      "purpose": "Aerobic volume",
+      "shoe": "glycerin"
+    },
+    {
+      "date": "2026-11-18",
+      "type": "workout",
+      "title": "T1 threshold",
+      "distance_mi": 7,
+      "pace": "6:55–7:05 reps",
+      "hr": "≤172",
+      "detail": "2.5 mi easy · 3 × 1 mi at 6:55–7:05, 90 s jog · easy to 7 mi. Lap every rep.",
+      "purpose": "First threshold session of the build",
+      "check": "Gate: soreness ≤2/10, Monday's strides felt normal, knee ≤1/10 on every run. Any miss → 7 mi easy instead.",
+      "steps": [
+        "Warm-up 2.5 mi easy",
+        "1 mi at 6:55–7:05",
+        "90 s jog",
+        "1 mi at 6:55–7:05",
+        "90 s jog",
+        "1 mi at 6:55–7:05",
+        "Cool-down easy to 7 mi"
+      ],
+      "shoe": "yellow"
+    },
+    {
+      "date": "2026-11-19",
+      "type": "easy",
+      "title": "Easy run",
+      "distance_mi": 4,
+      "hr": "≤145",
+      "detail": "Recovery pace.",
       "purpose": "Recovery",
       "shoe": "glycerin"
     },
     {
-      "date": "2026-11-14",
+      "date": "2026-11-20",
+      "type": "rest",
+      "title": "Rest",
+      "detail": "Off.",
+      "purpose": "Recovery before the long run",
+      "shoe": null
+    },
+    {
+      "date": "2026-11-21",
       "type": "easy",
-      "title": "Easy run",
-      "duration": "35–40 min",
-      "distance_mi": 4.2,
+      "title": "Easy + strides",
+      "distance_mi": 5,
       "hr": "≤145",
-      "detail": "Conversational, no pace target.",
-      "purpose": "Recovery",
+      "detail": "5 mi easy, then 6 × 20 s strides.",
+      "purpose": "Leg speed",
       "shoe": "gray"
     },
     {
-      "date": "2026-11-15",
-      "type": "easy",
-      "title": "Easy run",
-      "duration": "40 min",
-      "distance_mi": 4.5,
+      "date": "2026-11-22",
+      "type": "long",
+      "title": "Long run",
+      "distance_mi": 14,
       "hr": "≤145",
-      "detail": "No long run this week.",
-      "purpose": "Recovery",
+      "detail": "Easy throughout. 2 GU per hour from 30 min. Cut to 10 mi if the knee reaches 2/10.",
+      "purpose": "Day 14: first long run back",
       "shoe": "glycerin"
     }
   ],
   "next_week": {
-    "label": "Week 2 · Mon 16 – Sun 22 Nov",
-    "target_mi": "39",
+    "label": "Week 3 · Mon 23 – Sun 29 Nov (Hudson from Tue)",
+    "target_mi": "46",
     "items": [
-      "Mon 16 Nov: 4 mi easy + 6 × 20 s strides (Gray)",
-      "Tue 17 Nov: 5 mi easy (Glycerin 23)",
-      "Wed 18 Nov: threshold, 7 mi — 3 × 1 mi at 6:55–7:05, 90 s jog (Yellow). Easy 7 instead if the legs aren't ready",
-      "Thu 19 Nov: 4 mi easy (Glycerin 23)",
-      "Fri 20 Nov: off",
-      "Sat 21 Nov: 5 mi easy + 6 × 20 s strides (Gray)",
-      "Sun 22 Nov: long run, 14 mi easy, 2 gels per hour (Glycerin 23)"
+      "Mon 23 Nov: 7 mi easy + strides (Gray)",
+      "Tue 24 Nov: off (travel)",
+      "Wed 25 Nov: T2, 8 mi — 4 × 1 mi at 6:50–7:00, 60 s jog (Yellow)",
+      "Thu 26 Nov: 6 mi easy (Glycerin 23)",
+      "Fri 27 Nov: 6 mi easy + 6 hill strides (Gray)",
+      "Sat 28 Nov: 3 mi easy (Glycerin 23)",
+      "Sun 29 Nov: 16 mi easy, 2 gels per hour (Glycerin 23)"
     ]
   },
   "weekly_miles": [
@@ -137,6 +144,10 @@
     {
       "week_of": "2026-11-02",
       "mi": 43.9
+    },
+    {
+      "week_of": "2026-11-09",
+      "mi": 10.2
     }
   ],
   "target_band": [
@@ -158,14 +169,14 @@
     "glycerin": {
       "name": "Glycerin 23",
       "color": "#FAF9F5",
-      "miles": 158.7,
+      "miles": 165.1,
       "retire": 475,
       "role": "Easy, easy long runs"
     },
     "gray": {
       "name": "Hyperion 3 Gray",
       "color": "#8F8E89",
-      "miles": 8.7,
+      "miles": 12.5,
       "retire": 350,
       "role": "Short easy, strides"
     },
