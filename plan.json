@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15",
+  "updated": "2026-11-18",
   "race": {
     "name": "B&A Trail Marathon",
     "date": "2027-03-07",
@@ -18,102 +18,81 @@
     "phase": "Recovery → base",
     "start": "2026-11-16",
     "end": "2026-11-22",
-    "target_mi": "39",
-    "note": "Easy = HR ≤145, 8:15–9:00 or slower. Knee: stop and walk at 3/10, a limp, or pain that climbs. Missed runs aren't made up."
+    "target_mi": "0–2",
+    "note": "Plan adjusted Wed 18 Nov: strength block started (03 §13). Runs only when the morning check passes; easy, flat, cadence +5%. Missed runs aren't made up."
   },
   "days": [
     {
       "date": "2026-11-16",
-      "type": "easy",
-      "title": "Easy + strides",
-      "distance_mi": 4,
-      "hr": "≤145",
-      "detail": "4 mi easy, then 6 × 20 s strides with full recovery.",
-      "purpose": "Day 8: first strides after Harrisburg",
-      "check": "Knee ≤1/10 on stairs this morning.",
-      "shoe": "gray"
+      "type": "rest",
+      "title": "Off",
+      "detail": "No run.",
+      "purpose": "Adjusted plan",
+      "shoe": null
     },
     {
       "date": "2026-11-17",
-      "type": "easy",
-      "title": "Easy run",
-      "distance_mi": 5,
-      "hr": "≤145",
-      "detail": "Conversational.",
-      "purpose": "Aerobic volume",
-      "shoe": "glycerin"
+      "type": "rest",
+      "title": "Off",
+      "detail": "No run.",
+      "purpose": "Adjusted plan",
+      "shoe": null
     },
     {
       "date": "2026-11-18",
-      "type": "workout",
-      "title": "T1 threshold",
-      "distance_mi": 7,
-      "pace": "6:55–7:05 reps",
-      "hr": "≤172",
-      "detail": "2.5 mi easy · 3 × 1 mi at 6:55–7:05, 90 s jog · easy to 7 mi. Lap every rep.",
-      "purpose": "First threshold session of the build",
-      "check": "Gate: soreness ≤2/10, Monday's strides felt normal, knee ≤1/10 on every run. Any miss → 7 mi easy instead.",
-      "steps": [
-        "Warm-up 2.5 mi easy",
-        "1 mi at 6:55–7:05",
-        "90 s jog",
-        "1 mi at 6:55–7:05",
-        "90 s jog",
-        "1 mi at 6:55–7:05",
-        "Cool-down easy to 7 mi"
-      ],
-      "shoe": "yellow"
+      "type": "rest",
+      "title": "Strength S1 (done)",
+      "detail": "First lift: squat, RDL, hamstrings, hips, calves, core. Low volume.",
+      "purpose": "Strength block start",
+      "shoe": null
     },
     {
       "date": "2026-11-19",
-      "type": "easy",
-      "title": "Easy run",
-      "distance_mi": 4,
-      "hr": "≤145",
-      "detail": "Recovery pace.",
+      "type": "rest",
+      "title": "Off / optional bike",
+      "detail": "Optional 30–40 min easy bike, seat high. Soreness day.",
       "purpose": "Recovery",
-      "shoe": "glycerin"
+      "shoe": null
     },
     {
       "date": "2026-11-20",
       "type": "rest",
-      "title": "Rest",
-      "detail": "Off.",
-      "purpose": "Recovery before the long run",
+      "title": "Strength A",
+      "detail": "Session A (03 §13.4), first-2-weeks ramp: 2 work sets per lift, nothing near failure. Under 50 min.",
+      "purpose": "Strength",
       "shoe": null
     },
     {
       "date": "2026-11-21",
       "type": "easy",
-      "title": "Easy + strides",
-      "distance_mi": 5,
+      "title": "R1: 20 min easy (if check passes)",
+      "detail": "Morning check first (03 §13.2). Pass → 20 min easy, flat, cadence +5%. Otherwise optional bike 30–40 min.",
+      "purpose": "Return to running",
+      "shoe": "glycerin",
+      "distance_mi": 2.3,
       "hr": "≤145",
-      "detail": "5 mi easy, then 6 × 20 s strides.",
-      "purpose": "Leg speed",
-      "shoe": "gray"
+      "duration": "20 min"
     },
     {
       "date": "2026-11-22",
-      "type": "long",
-      "title": "Long run",
-      "distance_mi": 14,
-      "hr": "≤145",
-      "detail": "Easy throughout. 2 GU per hour from 30 min. Cut to 10 mi if the knee reaches 2/10.",
-      "purpose": "Day 14: first long run back",
-      "shoe": "glycerin"
+      "type": "rest",
+      "title": "Strength B (optional)",
+      "detail": "Morning check first. Session B if you have time (the week is 2×). No run. Long run cancelled.",
+      "purpose": "Strength",
+      "shoe": null
     }
   ],
   "next_week": {
     "label": "Week 3 · Mon 23 – Sun 29 Nov (Hudson from Tue)",
-    "target_mi": "46",
+    "target_mi": "~18–22 if runs continue",
     "items": [
-      "Mon 23 Nov: 7 mi easy + strides (Gray)",
+      "Mon 23 Nov: R2, 30 min easy (Glycerin 23)",
       "Tue 24 Nov: off (travel)",
-      "Wed 25 Nov: T2, 8 mi — 4 × 1 mi at 6:50–7:00, 60 s jog (Yellow)",
-      "Thu 26 Nov: 6 mi easy (Glycerin 23)",
-      "Fri 27 Nov: 6 mi easy + 6 hill strides (Gray)",
-      "Sat 28 Nov: 3 mi easy (Glycerin 23)",
-      "Sun 29 Nov: 16 mi easy, 2 gels per hour (Glycerin 23)"
+      "Wed 25 Nov: Strength A, no run",
+      "Thu 26 Nov: R3, 40 min easy (Glycerin 23)",
+      "Fri 27 Nov: Strength B; optional 30 min easy AM (Glycerin 23)",
+      "Sat 28 Nov: R4, 50 min easy + 4 × 20 s strides (Gray)",
+      "Sun 29 Nov: 40 min easy (Glycerin 23); replan of weeks 4–7"
     ]
   },
   "weekly_miles": [
@@ -147,7 +126,7 @@
     },
     {
       "week_of": "2026-11-09",
-      "mi": 10.2
+      "mi": 14.7
     }
   ],
   "target_band": [
@@ -169,7 +148,7 @@
     "glycerin": {
       "name": "Glycerin 23",
       "color": "#FAF9F5",
-      "miles": 165.1,
+      "miles": 169.5,
       "retire": 475,
       "role": "Easy, easy long runs"
     },
