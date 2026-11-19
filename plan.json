@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18",
+  "updated": "2026-11-19",
   "race": {
     "name": "B&A Trail Marathon",
     "date": "2027-03-07",
@@ -56,11 +56,12 @@
     },
     {
       "date": "2026-11-20",
-      "type": "rest",
+      "type": "lift",
       "title": "Strength A",
-      "detail": "Session A (03 §13.4), first-2-weeks ramp: 2 work sets per lift, nothing near failure. Under 50 min.",
+      "detail": "No run today.",
       "purpose": "Strength",
-      "shoe": null
+      "shoe": null,
+      "lift_id": "S2"
     },
     {
       "date": "2026-11-21",
@@ -75,11 +76,12 @@
     },
     {
       "date": "2026-11-22",
-      "type": "rest",
+      "type": "lift",
       "title": "Strength B (optional)",
-      "detail": "Morning check first. Session B if you have time (the week is 2×). No run. Long run cancelled.",
+      "detail": "Morning check first. No run; long run cancelled.",
       "purpose": "Strength",
-      "shoe": null
+      "shoe": null,
+      "lift_id": "S3"
     }
   ],
   "next_week": {
@@ -166,5 +168,1153 @@
       "retire": 450,
       "role": "Rain, treadmill, backup only"
     }
-  }
+  },
+  "lifts": [
+    {
+      "date": "2026-11-20",
+      "id": "S2",
+      "session": "A",
+      "title": "S2 · Session A — squat day",
+      "minutes": "~47 min",
+      "gate": "Knee rule: every set ≤3/10 at the knee. Over 3 → stop that exercise and step back (higher box, −20% load or shorter range). Progress load OR depth (never both) only if every set was ≤2/10 and tomorrow's stairs score is at or below baseline. Score the knee, not thigh soreness.",
+      "squat": "Squat depth by knee phase: K1 box squat to a parallel box, box lowered 2 in at a time · K2 free high-bar back squat to parallel (paused reps first 2 sessions) · K3 full depth. Stance hip-width or slightly wider, toes 10–20° out; on the box, touch and pause staying tight.",
+      "blocks": [
+        {
+          "name": "Warm-up · 5 min",
+          "rest": "none",
+          "items": [
+            {
+              "ex": "Easy bike",
+              "dose": "3 min"
+            },
+            {
+              "ex": "Band monster walks",
+              "dose": "10 steps forward, back, each side"
+            },
+            {
+              "ex": "Dead bug",
+              "dose": "1 × 8 per side"
+            },
+            {
+              "ex": "Spanish squat hold (while K0–K2)",
+              "dose": "2 × 30–45 s",
+              "load": "~60° knee bend"
+            },
+            {
+              "ex": "Single-leg balance (K2+: 5 snap-downs + 3 hop-and-hold per leg)",
+              "dose": "1 × 30 s per leg"
+            }
+          ]
+        },
+        {
+          "name": "Superset 1 · 14 min",
+          "rest": "75 s after each exercise, alternate A1 ↔ A2",
+          "items": [
+            {
+              "ex": "A1 · Back squat (depth by knee phase)",
+              "dose": "2 × 8",
+              "load": "RPE 6–7. Nothing near failure (first-2-weeks soreness ramp)",
+              "tempo": "3-1-X (3 s down, 1 s pause, up fast)",
+              "note": "Ramp first: empty bar × 8, ~50% × 5"
+            },
+            {
+              "ex": "A2 · Chest-supported DB row",
+              "dose": "2 × 8",
+              "load": "RPE 8",
+              "tempo": "2-1-1"
+            }
+          ]
+        },
+        {
+          "name": "Tri-set 2 · 12 min",
+          "rest": "35 s → B2 · 35 s → B3 · 60 s → B1",
+          "items": [
+            {
+              "ex": "B1 · Barbell RDL",
+              "dose": "2 × 8",
+              "load": "RPE 6–7. Nothing near failure (first-2-weeks soreness ramp)",
+              "tempo": "3-0-1",
+              "note": "Knees soft 15–20°, bar on thighs, to mid-shin or hamstring limit. One ramp set first"
+            },
+            {
+              "ex": "B2 · Ab-wheel rollout, kneeling",
+              "dose": "2 × 6–10",
+              "load": "RPE 8, ribs down",
+              "tempo": "slow"
+            },
+            {
+              "ex": "B3 · Barbell bench press",
+              "dose": "2 × 8",
+              "load": "RPE 7–8",
+              "tempo": "2-0-X",
+              "note": "One ramp set first"
+            }
+          ]
+        },
+        {
+          "name": "Tri-set 3 · 10 min",
+          "rest": "20 s → C2 · 20 s → C3 · 45 s → C1",
+          "items": [
+            {
+              "ex": "C1 · Step-up to a 20–30 cm box (L1)",
+              "dose": "2 × 8 per leg",
+              "load": "RPE 7–8",
+              "tempo": "3-s lowering"
+            },
+            {
+              "ex": "C2 · Hamstring curl machine",
+              "dose": "2 × 10",
+              "tempo": "3–5-s lowering"
+            },
+            {
+              "ex": "C3 · Seated calf raise (soleus)",
+              "dose": "2 × 15",
+              "load": "RPE 8",
+              "tempo": "3-0-3 (3 s up, 3 s down)",
+              "note": "Heavy — Achilles work"
+            }
+          ]
+        },
+        {
+          "name": "Finisher · 6 min",
+          "rest": "30 s between",
+          "items": [
+            {
+              "ex": "Knee extension 90°→45° only (K0–K1)",
+              "dose": "2 × 12–15",
+              "load": "RPE 7"
+            },
+            {
+              "ex": "Standing calf raise, straight knee",
+              "dose": "2 × 15",
+              "load": "RPE 8",
+              "tempo": "3-0-3"
+            },
+            {
+              "ex": "Hip abduction machine",
+              "dose": "1 × 15"
+            }
+          ]
+        }
+      ],
+      "minimum": "Short on time (~28 min): warm-up 4 min · Superset 1 × 3 rounds · RDL + seated calf × 2 · Nordic/ham curl × 1 + knee extension or ski hold × 1.",
+      "note": "Starting loads: use Wed 18 Nov's box squat and RDL loads; add 5–10 lb only if every set was RPE ≤6 and knee ≤1/10. No loads noted → ramp: empty bar × 8, +20 lb per set of 5 until the bar slows or knee hits 2/10, then work at that minus ~10%. Machines/DBs: a weight you could lift ~4 more times than prescribed."
+    },
+    {
+      "date": "2026-11-22",
+      "id": "S3",
+      "session": "B",
+      "title": "S3 · Session B — RDL, landing and pull day",
+      "minutes": "~42 min",
+      "gate": "Knee rule: every set ≤3/10 at the knee. Over 3 → stop that exercise and step back (higher box, −20% load or shorter range). Progress load OR depth (never both) only if every set was ≤2/10 and tomorrow's stairs score is at or below baseline. Score the knee, not thigh soreness.",
+      "squat": "Squat depth by knee phase: K1 box squat to a parallel box, box lowered 2 in at a time · K2 free high-bar back squat to parallel (paused reps first 2 sessions) · K3 full depth. Stance hip-width or slightly wider, toes 10–20° out; on the box, touch and pause staying tight.",
+      "blocks": [
+        {
+          "name": "Warm-up · 3–5 min",
+          "rest": "none",
+          "items": [
+            {
+              "ex": "Band monster walks",
+              "dose": "10 steps each way"
+            },
+            {
+              "ex": "Bodyweight box squat",
+              "dose": "5"
+            },
+            {
+              "ex": "Spanish squat hold (K0–K2)",
+              "dose": "1 × 45 s"
+            },
+            {
+              "ex": "Easy bike (lift-only day)",
+              "dose": "3 min"
+            }
+          ]
+        },
+        {
+          "name": "Landing · 5 min",
+          "rest": "as needed — quality first",
+          "items": [
+            {
+              "ex": "Landing drills",
+              "dose": "P0 only: single-leg balance 2 × 30 s per leg (firm floor → eyes closed → foam pad)",
+              "note": "Cue: knee over 2nd toe, hips back, quiet landing, stick 2 s"
+            }
+          ]
+        },
+        {
+          "name": "Tri-set 1 · 12 min",
+          "rest": "30 s → A2 · 30 s → A3 · 45 s → A1",
+          "items": [
+            {
+              "ex": "A1 · Back squat, lighter (depth by knee phase)",
+              "dose": "2 × 5",
+              "load": "RPE 6–7, ~85–90% of Session A load",
+              "tempo": "2-0-X, fast up",
+              "note": "Two ramp sets first"
+            },
+            {
+              "ex": "A2 · Pallof press (cable or band)",
+              "dose": "2 × 10 per side",
+              "load": "firm",
+              "tempo": "2-s hold"
+            },
+            {
+              "ex": "A3 · Pull-up (band-assisted if <5; add weight once 3 × 8 clean)",
+              "dose": "2 × 5–8",
+              "load": "RPE 8",
+              "tempo": "2-0-1"
+            }
+          ]
+        },
+        {
+          "name": "Tri-set 2 · 12 min",
+          "rest": "20 s → B2 · 20 s → B3 · 45 s → B1",
+          "items": [
+            {
+              "ex": "B1 · Single-leg RDL, DB in opposite hand (or B-stance RDL)",
+              "dose": "2 × 8 per side",
+              "load": "RPE 7",
+              "tempo": "3-s lowering"
+            },
+            {
+              "ex": "B2 · Dips (or DB incline press)",
+              "dose": "2 × 6–10",
+              "load": "RPE 8",
+              "tempo": "2-0-1"
+            },
+            {
+              "ex": "B3 · Standing calf raise, straight knee",
+              "dose": "2 × 15",
+              "load": "RPE 8",
+              "tempo": "3-0-3",
+              "note": "Heavy — Achilles work"
+            }
+          ]
+        },
+        {
+          "name": "Circuit 3 · 10 min",
+          "rest": "move straight through; 30 s after each round",
+          "items": [
+            {
+              "ex": "C0 · Nordic, band-assisted or partial range (first Nordic)",
+              "dose": "1 × 3",
+              "tempo": "3–5-s lowering",
+              "note": "Thick pad under knees; catch yourself at ~45°"
+            },
+            {
+              "ex": "C1 · Seated calf raise",
+              "dose": "2 × 15",
+              "load": "RPE 8",
+              "tempo": "3-0-3"
+            },
+            {
+              "ex": "C2 · Copenhagen side plank, short lever (knee on bench)",
+              "dose": "2 × 20–30 s per side",
+              "tempo": "hold",
+              "note": "Long lever (ankle) once 2 × 30 s is easy"
+            },
+            {
+              "ex": "C3 · Cable crunch (or weighted decline sit-up)",
+              "dose": "2 × 10–15",
+              "load": "1–2 reps in reserve",
+              "tempo": "2-1-2"
+            },
+            {
+              "ex": "C4 · Side plank",
+              "dose": "2 × 30–45 s per side",
+              "tempo": "hold",
+              "note": "Every 2nd Session B: swap the last round for a forearm plank to ~2:30–3:00 (PRT)"
+            }
+          ]
+        }
+      ],
+      "minimum": "Short on time (~24 min): landing 3 min · A1 + A3 × 2 · B1 + B3 × 2 · Copenhagen + cable crunch × 1.",
+      "note": "Optional — Wed + Fri already make this week's 2. Do the morning knee check first (Sun 22 Nov gate). If skipped, Wed 25 stays at these ramp loads."
+    },
+    {
+      "date": "2026-11-25",
+      "id": "S4",
+      "session": "A",
+      "title": "S4 · Session A — squat day",
+      "minutes": "~47 min",
+      "gate": "Knee rule: every set ≤3/10 at the knee. Over 3 → stop that exercise and step back (higher box, −20% load or shorter range). Progress load OR depth (never both) only if every set was ≤2/10 and tomorrow's stairs score is at or below baseline. Score the knee, not thigh soreness.",
+      "squat": "Squat depth by knee phase: K1 box squat to a parallel box, box lowered 2 in at a time · K2 free high-bar back squat to parallel (paused reps first 2 sessions) · K3 full depth. Stance hip-width or slightly wider, toes 10–20° out; on the box, touch and pause staying tight.",
+      "blocks": [
+        {
+          "name": "Warm-up · 5 min",
+          "rest": "none",
+          "items": [
+            {
+              "ex": "Easy bike",
+              "dose": "3 min"
+            },
+            {
+              "ex": "Band monster walks",
+              "dose": "10 steps forward, back, each side"
+            },
+            {
+              "ex": "Dead bug",
+              "dose": "1 × 8 per side"
+            },
+            {
+              "ex": "Spanish squat hold (while K0–K2)",
+              "dose": "2 × 30–45 s",
+              "load": "~60° knee bend"
+            },
+            {
+              "ex": "Single-leg balance (K2+: 5 snap-downs + 3 hop-and-hold per leg)",
+              "dose": "1 × 30 s per leg"
+            }
+          ]
+        },
+        {
+          "name": "Superset 1 · 14 min",
+          "rest": "75 s after each exercise, alternate A1 ↔ A2",
+          "items": [
+            {
+              "ex": "A1 · Back squat (depth by knee phase)",
+              "dose": "3 × 8 (→ 3 × 6 once on the free squat)",
+              "load": "RPE 7",
+              "tempo": "3-1-X (3 s down, 1 s pause, up fast)",
+              "note": "Ramp first: empty bar × 8, ~50% × 5"
+            },
+            {
+              "ex": "A2 · Chest-supported DB row",
+              "dose": "3 × 8",
+              "load": "RPE 8",
+              "tempo": "2-1-1"
+            }
+          ]
+        },
+        {
+          "name": "Tri-set 2 · 12 min",
+          "rest": "35 s → B2 · 35 s → B3 · 60 s → B1",
+          "items": [
+            {
+              "ex": "B1 · Barbell RDL",
+              "dose": "3 × 8",
+              "load": "RPE 7",
+              "tempo": "3-0-1",
+              "note": "Knees soft 15–20°, bar on thighs, to mid-shin or hamstring limit. One ramp set first"
+            },
+            {
+              "ex": "B2 · Ab-wheel rollout, kneeling",
+              "dose": "3 × 6–10",
+              "load": "RPE 8, ribs down",
+              "tempo": "slow"
+            },
+            {
+              "ex": "B3 · Barbell bench press",
+              "dose": "3 × 8",
+              "load": "RPE 7–8",
+              "tempo": "2-0-X",
+              "note": "One ramp set first"
+            }
+          ]
+        },
+        {
+          "name": "Tri-set 3 · 10 min",
+          "rest": "20 s → C2 · 20 s → C3 · 45 s → C1",
+          "items": [
+            {
+              "ex": "C1 · Step-up (L1) → split squat (L2) if you're in K2",
+              "dose": "2 × 8 per leg",
+              "load": "RPE 7–8",
+              "tempo": "3-s lowering"
+            },
+            {
+              "ex": "C2 · Nordic N2 (band-assisted or partial range)",
+              "dose": "2 × 4, 3–5-s lowering",
+              "tempo": "3–5-s lowering"
+            },
+            {
+              "ex": "C3 · Seated calf raise (soleus)",
+              "dose": "2 × 12",
+              "load": "RPE 8",
+              "tempo": "3-0-3 (3 s up, 3 s down)",
+              "note": "Heavy — Achilles work"
+            }
+          ]
+        },
+        {
+          "name": "Finisher · 6 min",
+          "rest": "30 s between",
+          "items": [
+            {
+              "ex": "Ski hold (wall sit) — K2+; knee extension 90°→45° 2 × 12–15 if still K1",
+              "dose": "If K2: 2 × 30–45 s at ~70°",
+              "load": "RPE 7"
+            },
+            {
+              "ex": "Standing calf raise, straight knee",
+              "dose": "2 × 12",
+              "load": "RPE 8",
+              "tempo": "3-0-3"
+            },
+            {
+              "ex": "Hip abduction machine",
+              "dose": "1 × 15"
+            }
+          ]
+        }
+      ],
+      "minimum": "Short on time (~28 min): warm-up 4 min · Superset 1 × 3 rounds · RDL + seated calf × 2 · Nordic/ham curl × 1 + knee extension or ski hold × 1.",
+      "note": "Hudson. Achilles check before the session: single-leg heel raises to fatigue, each leg; note reps."
+    },
+    {
+      "date": "2026-11-27",
+      "id": "S5",
+      "session": "B",
+      "title": "S5 · Session B — RDL, landing and pull day",
+      "minutes": "~42 min",
+      "gate": "Knee rule: every set ≤3/10 at the knee. Over 3 → stop that exercise and step back (higher box, −20% load or shorter range). Progress load OR depth (never both) only if every set was ≤2/10 and tomorrow's stairs score is at or below baseline. Score the knee, not thigh soreness.",
+      "squat": "Squat depth by knee phase: K1 box squat to a parallel box, box lowered 2 in at a time · K2 free high-bar back squat to parallel (paused reps first 2 sessions) · K3 full depth. Stance hip-width or slightly wider, toes 10–20° out; on the box, touch and pause staying tight.",
+      "blocks": [
+        {
+          "name": "Warm-up · 3–5 min",
+          "rest": "none",
+          "items": [
+            {
+              "ex": "Band monster walks",
+              "dose": "10 steps each way"
+            },
+            {
+              "ex": "Bodyweight box squat",
+              "dose": "5"
+            },
+            {
+              "ex": "Spanish squat hold (K0–K2)",
+              "dose": "1 × 45 s"
+            },
+            {
+              "ex": "Easy bike (lift-only day)",
+              "dose": "3 min"
+            }
+          ]
+        },
+        {
+          "name": "Landing · 5 min",
+          "rest": "as needed — quality first",
+          "items": [
+            {
+              "ex": "Landing drills",
+              "dose": "P0 balance; P1 if in K2 (snap-down to stick 2 × 5 · pogo 2 × 10 · hop-and-hold 2 × 4 per leg · lateral line hops 2 × 10)",
+              "note": "Cue: knee over 2nd toe, hips back, quiet landing, stick 2 s"
+            }
+          ]
+        },
+        {
+          "name": "Tri-set 1 · 12 min",
+          "rest": "30 s → A2 · 30 s → A3 · 45 s → A1",
+          "items": [
+            {
+              "ex": "A1 · Back squat, lighter (depth by knee phase)",
+              "dose": "3 × 5",
+              "load": "RPE 6–7, ~85–90% of Session A load",
+              "tempo": "2-0-X, fast up",
+              "note": "Two ramp sets first"
+            },
+            {
+              "ex": "A2 · Pallof press (cable or band)",
+              "dose": "3 × 10 per side",
+              "load": "firm",
+              "tempo": "2-s hold"
+            },
+            {
+              "ex": "A3 · Pull-up (band-assisted if <5; add weight once 3 × 8 clean)",
+              "dose": "3 × 5–8",
+              "load": "RPE 8",
+              "tempo": "2-0-1"
+            }
+          ]
+        },
+        {
+          "name": "Tri-set 2 · 12 min",
+          "rest": "20 s → B2 · 20 s → B3 · 45 s → B1",
+          "items": [
+            {
+              "ex": "B1 · Single-leg RDL, DB in opposite hand (or B-stance RDL)",
+              "dose": "2 × 8 per side",
+              "load": "RPE 7",
+              "tempo": "3-s lowering"
+            },
+            {
+              "ex": "B2 · Dips (or DB incline press)",
+              "dose": "3 × 6–10",
+              "load": "RPE 8",
+              "tempo": "2-0-1"
+            },
+            {
+              "ex": "B3 · Standing calf raise, straight knee",
+              "dose": "3 × 12",
+              "load": "RPE 8",
+              "tempo": "3-0-3",
+              "note": "Heavy — Achilles work"
+            }
+          ]
+        },
+        {
+          "name": "Circuit 3 · 10 min",
+          "rest": "move straight through; 30 s after each round",
+          "items": [
+            {
+              "ex": "C1 · Seated calf raise",
+              "dose": "2 × 12",
+              "load": "RPE 8",
+              "tempo": "3-0-3"
+            },
+            {
+              "ex": "C2 · Copenhagen side plank, short lever (knee on bench)",
+              "dose": "2 × 20–30 s per side",
+              "tempo": "hold",
+              "note": "Long lever (ankle) once 2 × 30 s is easy"
+            },
+            {
+              "ex": "C3 · Cable crunch (or weighted decline sit-up)",
+              "dose": "2 × 10–15",
+              "load": "1–2 reps in reserve",
+              "tempo": "2-1-2"
+            },
+            {
+              "ex": "C4 · Side plank",
+              "dose": "2 × 30–45 s per side",
+              "tempo": "hold",
+              "note": "Every 2nd Session B: swap the last round for a forearm plank to ~2:30–3:00 (PRT)"
+            }
+          ]
+        }
+      ],
+      "minimum": "Short on time (~24 min): landing 3 min · A1 + A3 × 2 · B1 + B3 × 2 · Copenhagen + cable crunch × 1.",
+      "note": "If you ran a 30-min filler this morning, lift ≥3 h later. Optional 2-min push-up test today for data."
+    },
+    {
+      "date": "2026-12-02",
+      "id": "S6",
+      "session": "A",
+      "title": "S6 · Session A — squat day",
+      "minutes": "~47 min",
+      "gate": "Knee rule: every set ≤3/10 at the knee. Over 3 → stop that exercise and step back (higher box, −20% load or shorter range). Progress load OR depth (never both) only if every set was ≤2/10 and tomorrow's stairs score is at or below baseline. Score the knee, not thigh soreness.",
+      "squat": "Squat depth by knee phase: K1 box squat to a parallel box, box lowered 2 in at a time · K2 free high-bar back squat to parallel (paused reps first 2 sessions) · K3 full depth. Stance hip-width or slightly wider, toes 10–20° out; on the box, touch and pause staying tight.",
+      "blocks": [
+        {
+          "name": "Warm-up · 5 min",
+          "rest": "none",
+          "items": [
+            {
+              "ex": "Easy bike",
+              "dose": "3 min"
+            },
+            {
+              "ex": "Band monster walks",
+              "dose": "10 steps forward, back, each side"
+            },
+            {
+              "ex": "Dead bug",
+              "dose": "1 × 8 per side"
+            },
+            {
+              "ex": "Spanish squat hold (while K0–K2)",
+              "dose": "2 × 30–45 s",
+              "load": "~60° knee bend"
+            },
+            {
+              "ex": "Single-leg balance (K2+: 5 snap-downs + 3 hop-and-hold per leg)",
+              "dose": "1 × 30 s per leg"
+            }
+          ]
+        },
+        {
+          "name": "Superset 1 · 14 min",
+          "rest": "75 s after each exercise, alternate A1 ↔ A2",
+          "items": [
+            {
+              "ex": "A1 · Back squat (depth by knee phase)",
+              "dose": "3 × 6",
+              "load": "RPE 7–8",
+              "tempo": "3-1-X (3 s down, 1 s pause, up fast)",
+              "note": "Ramp first: empty bar × 8, ~50% × 5"
+            },
+            {
+              "ex": "A2 · Chest-supported DB row",
+              "dose": "3 × 6–8",
+              "load": "RPE 8",
+              "tempo": "2-1-1"
+            }
+          ]
+        },
+        {
+          "name": "Tri-set 2 · 12 min",
+          "rest": "35 s → B2 · 35 s → B3 · 60 s → B1",
+          "items": [
+            {
+              "ex": "B1 · Barbell RDL",
+              "dose": "3 × 6",
+              "load": "RPE 7–8",
+              "tempo": "3-0-1",
+              "note": "Knees soft 15–20°, bar on thighs, to mid-shin or hamstring limit. One ramp set first"
+            },
+            {
+              "ex": "B2 · Ab-wheel rollout, kneeling",
+              "dose": "3 × 8–10",
+              "load": "RPE 8, ribs down",
+              "tempo": "slow"
+            },
+            {
+              "ex": "B3 · Barbell bench press",
+              "dose": "3 × 6–8",
+              "load": "RPE 7–8",
+              "tempo": "2-0-X",
+              "note": "One ramp set first"
+            }
+          ]
+        },
+        {
+          "name": "Tri-set 3 · 10 min",
+          "rest": "20 s → C2 · 20 s → C3 · 45 s → C1",
+          "items": [
+            {
+              "ex": "C1 · Split squat → Bulgarian split squat (L2), 3-s lowering",
+              "dose": "2–3 × 8 per leg",
+              "load": "RPE 7–8",
+              "tempo": "3-s lowering"
+            },
+            {
+              "ex": "C2 · Nordic N2 → N3 (full range)",
+              "dose": "2 × 5",
+              "tempo": "3–5-s lowering"
+            },
+            {
+              "ex": "C3 · Seated calf raise (soleus)",
+              "dose": "2 × 10",
+              "load": "RPE 8",
+              "tempo": "3-0-3 (3 s up, 3 s down)",
+              "note": "Heavy — Achilles work"
+            }
+          ]
+        },
+        {
+          "name": "Finisher · 6 min",
+          "rest": "30 s between",
+          "items": [
+            {
+              "ex": "Ski hold (wall sit) — K2+; knee extension 90°→45° 2 × 12–15 if still K1",
+              "dose": "2 × 45–60 s",
+              "load": "RPE 7"
+            },
+            {
+              "ex": "Standing calf raise, straight knee",
+              "dose": "2 × 10",
+              "load": "RPE 8",
+              "tempo": "3-0-3"
+            },
+            {
+              "ex": "Hip abduction machine",
+              "dose": "1 × 15"
+            }
+          ]
+        }
+      ],
+      "minimum": "Short on time (~28 min): warm-up 4 min · Superset 1 × 3 rounds · RDL + seated calf × 2 · Nordic/ham curl × 1 + knee extension or ski hold × 1.",
+      "note": "Wednesday lift-only day (pending your OK on dropping the Wed easy run)."
+    },
+    {
+      "date": "2026-12-04",
+      "id": "S7",
+      "session": "B",
+      "title": "S7 · Session B — RDL, landing and pull day",
+      "minutes": "~42 min",
+      "gate": "Knee rule: every set ≤3/10 at the knee. Over 3 → stop that exercise and step back (higher box, −20% load or shorter range). Progress load OR depth (never both) only if every set was ≤2/10 and tomorrow's stairs score is at or below baseline. Score the knee, not thigh soreness.",
+      "squat": "Squat depth by knee phase: K1 box squat to a parallel box, box lowered 2 in at a time · K2 free high-bar back squat to parallel (paused reps first 2 sessions) · K3 full depth. Stance hip-width or slightly wider, toes 10–20° out; on the box, touch and pause staying tight.",
+      "blocks": [
+        {
+          "name": "Warm-up · 3–5 min",
+          "rest": "none",
+          "items": [
+            {
+              "ex": "Band monster walks",
+              "dose": "10 steps each way"
+            },
+            {
+              "ex": "Bodyweight box squat",
+              "dose": "5"
+            },
+            {
+              "ex": "Spanish squat hold (K0–K2)",
+              "dose": "1 × 45 s"
+            },
+            {
+              "ex": "Easy bike (lift-only day)",
+              "dose": "3 min"
+            }
+          ]
+        },
+        {
+          "name": "Landing · 5 min",
+          "rest": "as needed — quality first",
+          "items": [
+            {
+              "ex": "Landing drills",
+              "dose": "P1 → P2 by phase (P2: hop for distance to stick 3 per leg · square hop 2 rounds per leg · skater bound to stick 2 × 5 per side · box jump 2 × 4, step down)",
+              "note": "Cue: knee over 2nd toe, hips back, quiet landing, stick 2 s"
+            }
+          ]
+        },
+        {
+          "name": "Tri-set 1 · 12 min",
+          "rest": "30 s → A2 · 30 s → A3 · 45 s → A1",
+          "items": [
+            {
+              "ex": "A1 · Back squat, lighter (depth by knee phase)",
+              "dose": "3 × 4, fast up",
+              "load": "RPE 6–7, ~85–90% of Session A load",
+              "tempo": "2-0-X, fast up",
+              "note": "Two ramp sets first"
+            },
+            {
+              "ex": "A2 · Pallof press (cable or band)",
+              "dose": "3 × 10 per side",
+              "load": "firm",
+              "tempo": "2-s hold"
+            },
+            {
+              "ex": "A3 · Pull-up (band-assisted if <5; add weight once 3 × 8 clean)",
+              "dose": "3 × 6–8",
+              "load": "RPE 8",
+              "tempo": "2-0-1"
+            }
+          ]
+        },
+        {
+          "name": "Tri-set 2 · 12 min",
+          "rest": "20 s → B2 · 20 s → B3 · 45 s → B1",
+          "items": [
+            {
+              "ex": "B1 · Single-leg RDL, DB in opposite hand (or B-stance RDL)",
+              "dose": "2 × 8 per side",
+              "load": "RPE 7",
+              "tempo": "3-s lowering"
+            },
+            {
+              "ex": "B2 · Dips (or DB incline press)",
+              "dose": "3 × 6–10",
+              "load": "RPE 8",
+              "tempo": "2-0-1"
+            },
+            {
+              "ex": "B3 · Standing calf raise, straight knee",
+              "dose": "3 × 10",
+              "load": "RPE 8",
+              "tempo": "3-0-3",
+              "note": "Heavy — Achilles work"
+            }
+          ]
+        },
+        {
+          "name": "Circuit 3 · 10 min",
+          "rest": "move straight through; 30 s after each round",
+          "items": [
+            {
+              "ex": "C1 · Seated calf raise",
+              "dose": "2 × 10",
+              "load": "RPE 8",
+              "tempo": "3-0-3"
+            },
+            {
+              "ex": "C2 · Copenhagen side plank, short lever (knee on bench)",
+              "dose": "2 × 20–30 s per side",
+              "tempo": "hold",
+              "note": "Long lever (ankle) once 2 × 30 s is easy"
+            },
+            {
+              "ex": "C3 · Cable crunch (or weighted decline sit-up)",
+              "dose": "2 × 10–15",
+              "load": "1–2 reps in reserve",
+              "tempo": "2-1-2"
+            },
+            {
+              "ex": "C4 · Side plank",
+              "dose": "2 × 30–45 s per side",
+              "tempo": "hold",
+              "note": "Every 2nd Session B: swap the last round for a forearm plank to ~2:30–3:00 (PRT)"
+            }
+          ]
+        }
+      ],
+      "minimum": "Short on time (~24 min): landing 3 min · A1 + A3 × 2 · B1 + B3 × 2 · Copenhagen + cable crunch × 1.",
+      "note": "Right after Friday's run or that evening. Sunday's long run is ~38 h later; if legs feel heavy, skip the squat block today."
+    },
+    {
+      "date": "2026-12-09",
+      "id": "S8",
+      "session": "A",
+      "title": "S8 · Session A — squat day",
+      "minutes": "~47 min",
+      "gate": "Knee rule: every set ≤3/10 at the knee. Over 3 → stop that exercise and step back (higher box, −20% load or shorter range). Progress load OR depth (never both) only if every set was ≤2/10 and tomorrow's stairs score is at or below baseline. Score the knee, not thigh soreness.",
+      "squat": "Squat depth by knee phase: K1 box squat to a parallel box, box lowered 2 in at a time · K2 free high-bar back squat to parallel (paused reps first 2 sessions) · K3 full depth. Stance hip-width or slightly wider, toes 10–20° out; on the box, touch and pause staying tight.",
+      "blocks": [
+        {
+          "name": "Warm-up · 5 min",
+          "rest": "none",
+          "items": [
+            {
+              "ex": "Easy bike",
+              "dose": "3 min"
+            },
+            {
+              "ex": "Band monster walks",
+              "dose": "10 steps forward, back, each side"
+            },
+            {
+              "ex": "Dead bug",
+              "dose": "1 × 8 per side"
+            },
+            {
+              "ex": "Spanish squat hold (while K0–K2)",
+              "dose": "2 × 30–45 s",
+              "load": "~60° knee bend"
+            },
+            {
+              "ex": "Single-leg balance (K2+: 5 snap-downs + 3 hop-and-hold per leg)",
+              "dose": "1 × 30 s per leg"
+            }
+          ]
+        },
+        {
+          "name": "Superset 1 · 14 min",
+          "rest": "75 s after each exercise, alternate A1 ↔ A2",
+          "items": [
+            {
+              "ex": "A1 · Back squat (depth by knee phase)",
+              "dose": "4 × 4–5 (≈81–83% 1RM)",
+              "load": "RPE 8 on top sets",
+              "tempo": "3-1-X (3 s down, 1 s pause, up fast)",
+              "note": "Ramp first: empty bar × 8, ~50% × 5"
+            },
+            {
+              "ex": "A2 · Chest-supported DB row",
+              "dose": "3 × 5–6",
+              "load": "RPE 8",
+              "tempo": "2-1-1"
+            }
+          ]
+        },
+        {
+          "name": "Tri-set 2 · 12 min",
+          "rest": "35 s → B2 · 35 s → B3 · 60 s → B1",
+          "items": [
+            {
+              "ex": "B1 · Barbell RDL",
+              "dose": "3 × 5",
+              "load": "RPE 8 on top sets",
+              "tempo": "3-0-1",
+              "note": "Knees soft 15–20°, bar on thighs, to mid-shin or hamstring limit. One ramp set first"
+            },
+            {
+              "ex": "B2 · Ab-wheel rollout, kneeling",
+              "dose": "3 × 8–10",
+              "load": "RPE 8, ribs down",
+              "tempo": "slow"
+            },
+            {
+              "ex": "B3 · Barbell bench press",
+              "dose": "3 × 5–6",
+              "load": "RPE 7–8",
+              "tempo": "2-0-X",
+              "note": "One ramp set first"
+            }
+          ]
+        },
+        {
+          "name": "Tri-set 3 · 10 min",
+          "rest": "20 s → C2 · 20 s → C3 · 45 s → C1",
+          "items": [
+            {
+              "ex": "C1 · Bulgarian split squat (L2 → L3 at 6–8RM)",
+              "dose": "3 × 6–8 per leg",
+              "load": "RPE 7–8",
+              "tempo": "3-s lowering"
+            },
+            {
+              "ex": "C2 · Nordic N3",
+              "dose": "2–3 × 5",
+              "tempo": "3–5-s lowering"
+            },
+            {
+              "ex": "C3 · Seated calf raise (soleus)",
+              "dose": "2 × 8",
+              "load": "RPE 8",
+              "tempo": "3-0-3 (3 s up, 3 s down)",
+              "note": "Heavy — Achilles work"
+            }
+          ]
+        },
+        {
+          "name": "Finisher · 6 min",
+          "rest": "30 s between",
+          "items": [
+            {
+              "ex": "Ski hold (wall sit) — K2+; knee extension 90°→45° 2 × 12–15 if still K1",
+              "dose": "3 × 60 s",
+              "load": "RPE 7"
+            },
+            {
+              "ex": "Standing calf raise, straight knee",
+              "dose": "2 × 8",
+              "load": "RPE 8",
+              "tempo": "3-0-3"
+            },
+            {
+              "ex": "Hip abduction machine",
+              "dose": "1 × 15"
+            }
+          ]
+        }
+      ],
+      "minimum": "Short on time (~28 min): warm-up 4 min · Superset 1 × 3 rounds · RDL + seated calf × 2 · Nordic/ham curl × 1 + knee extension or ski hold × 1.",
+      "note": "Finals: PM, ≥3 h after the AM run. If an exam blocks the evening, lift Thu 10 instead and skip S9. Achilles heel-raise check before the session."
+    },
+    {
+      "date": "2026-12-10",
+      "id": "S9",
+      "session": "B",
+      "title": "S9 · Session B — RDL, landing and pull day",
+      "minutes": "~42 min",
+      "gate": "Knee rule: every set ≤3/10 at the knee. Over 3 → stop that exercise and step back (higher box, −20% load or shorter range). Progress load OR depth (never both) only if every set was ≤2/10 and tomorrow's stairs score is at or below baseline. Score the knee, not thigh soreness.",
+      "squat": "Squat depth by knee phase: K1 box squat to a parallel box, box lowered 2 in at a time · K2 free high-bar back squat to parallel (paused reps first 2 sessions) · K3 full depth. Stance hip-width or slightly wider, toes 10–20° out; on the box, touch and pause staying tight.",
+      "blocks": [
+        {
+          "name": "Warm-up · 3–5 min",
+          "rest": "none",
+          "items": [
+            {
+              "ex": "Band monster walks",
+              "dose": "10 steps each way"
+            },
+            {
+              "ex": "Bodyweight box squat",
+              "dose": "5"
+            },
+            {
+              "ex": "Spanish squat hold (K0–K2)",
+              "dose": "1 × 45 s"
+            },
+            {
+              "ex": "Easy bike (lift-only day)",
+              "dose": "3 min"
+            }
+          ]
+        },
+        {
+          "name": "Landing · 5 min",
+          "rest": "as needed — quality first",
+          "items": [
+            {
+              "ex": "Landing drills",
+              "dose": "P2 (add drop jump from 20–30 cm, 2 × 4). Stop when landings get sloppy",
+              "note": "Cue: knee over 2nd toe, hips back, quiet landing, stick 2 s"
+            }
+          ]
+        },
+        {
+          "name": "Tri-set 1 · 12 min",
+          "rest": "30 s → A2 · 30 s → A3 · 45 s → A1",
+          "items": [
+            {
+              "ex": "A1 · Back squat, lighter (depth by knee phase)",
+              "dose": "3 × 3, fast up",
+              "load": "RPE 6–7, ~85–90% of Session A load",
+              "tempo": "2-0-X, fast up",
+              "note": "Two ramp sets first"
+            },
+            {
+              "ex": "A2 · Pallof press (cable or band)",
+              "dose": "3 × 10 per side",
+              "load": "firm",
+              "tempo": "2-s hold"
+            },
+            {
+              "ex": "A3 · Pull-up (band-assisted if <5; add weight once 3 × 8 clean)",
+              "dose": "3 × 5–6",
+              "load": "RPE 8",
+              "tempo": "2-0-1"
+            }
+          ]
+        },
+        {
+          "name": "Tri-set 2 · 12 min",
+          "rest": "20 s → B2 · 20 s → B3 · 45 s → B1",
+          "items": [
+            {
+              "ex": "B1 · Single-leg RDL, DB in opposite hand (or B-stance RDL)",
+              "dose": "2 × 8 per side",
+              "load": "RPE 7",
+              "tempo": "3-s lowering"
+            },
+            {
+              "ex": "B2 · Dips (or DB incline press)",
+              "dose": "3 × 6–8",
+              "load": "RPE 8",
+              "tempo": "2-0-1"
+            },
+            {
+              "ex": "B3 · Standing calf raise, straight knee",
+              "dose": "3 × 8",
+              "load": "RPE 8",
+              "tempo": "3-0-3",
+              "note": "Heavy — Achilles work"
+            }
+          ]
+        },
+        {
+          "name": "Circuit 3 · 10 min",
+          "rest": "move straight through; 30 s after each round",
+          "items": [
+            {
+              "ex": "C1 · Seated calf raise",
+              "dose": "2 × 8",
+              "load": "RPE 8",
+              "tempo": "3-0-3"
+            },
+            {
+              "ex": "C2 · Copenhagen side plank, short lever (knee on bench)",
+              "dose": "2 × 20–30 s per side",
+              "tempo": "hold",
+              "note": "Long lever (ankle) once 2 × 30 s is easy"
+            },
+            {
+              "ex": "C3 · Cable crunch (or weighted decline sit-up)",
+              "dose": "2 × 10–15",
+              "load": "1–2 reps in reserve",
+              "tempo": "2-1-2"
+            },
+            {
+              "ex": "C4 · Side plank",
+              "dose": "2 × 30–45 s per side",
+              "tempo": "hold",
+              "note": "Every 2nd Session B: swap the last round for a forearm plank to ~2:30–3:00 (PRT)"
+            }
+          ]
+        }
+      ],
+      "minimum": "Short on time (~24 min): landing 3 min · A1 + A3 × 2 · B1 + B3 × 2 · Copenhagen + cable crunch × 1.",
+      "note": "Finals: PM. Day after S8. No lifting Fri 11 – Sun 13 (checkpoint long run Sun 13). Optional 2-min push-up test."
+    },
+    {
+      "date": "2026-12-15",
+      "id": "S10",
+      "session": "S",
+      "title": "S10 · Session S — ski final",
+      "minutes": "~35 min",
+      "gate": "Knee rule: every set ≤3/10 at the knee. Over 3 → stop that exercise and step back (higher box, −20% load or shorter range). Progress load OR depth (never both) only if every set was ≤2/10 and tomorrow's stairs score is at or below baseline. Score the knee, not thigh soreness.",
+      "squat": "Squat depth by knee phase: K1 box squat to a parallel box, box lowered 2 in at a time · K2 free high-bar back squat to parallel (paused reps first 2 sessions) · K3 full depth. Stance hip-width or slightly wider, toes 10–20° out; on the box, touch and pause staying tight.",
+      "blocks": [
+        {
+          "name": "Warm-up · 3 min",
+          "rest": "none",
+          "items": [
+            {
+              "ex": "Band monster walks + bodyweight squats",
+              "dose": "1 round"
+            }
+          ]
+        },
+        {
+          "name": "Landing · 3 min (familiar only)",
+          "rest": "as needed",
+          "items": [
+            {
+              "ex": "Hop-and-hold",
+              "dose": "2 × 3 per leg"
+            },
+            {
+              "ex": "Lateral bound to a stick",
+              "dose": "2 × 3 per side"
+            }
+          ]
+        },
+        {
+          "name": "Superset 1 · 10 min",
+          "rest": "75 s each",
+          "items": [
+            {
+              "ex": "Back squat, deepest familiar step",
+              "dose": "3 × 5",
+              "load": "RPE 7, ~10% below S8's top set",
+              "tempo": "3-1-X"
+            },
+            {
+              "ex": "Row",
+              "dose": "2 × 8",
+              "load": "RPE 7"
+            }
+          ]
+        },
+        {
+          "name": "Superset 2 · 7 min",
+          "rest": "60 s each",
+          "items": [
+            {
+              "ex": "RDL",
+              "dose": "2 × 6",
+              "load": "RPE 7",
+              "tempo": "3-0-1"
+            },
+            {
+              "ex": "Bench press",
+              "dose": "2 × 6",
+              "load": "RPE 7"
+            }
+          ]
+        },
+        {
+          "name": "Tri-set 3 · 8 min",
+          "rest": "20 s between, 45 s after round",
+          "items": [
+            {
+              "ex": "Bulgarian split squat",
+              "dose": "2 × 6 per leg",
+              "load": "RPE 7",
+              "tempo": "3-s lowering"
+            },
+            {
+              "ex": "Nordic",
+              "dose": "1 × 4"
+            },
+            {
+              "ex": "Seated calf raise",
+              "dose": "2 × 10",
+              "load": "RPE 8",
+              "tempo": "3-0-3"
+            }
+          ]
+        },
+        {
+          "name": "Finish · 4 min",
+          "rest": "30 s",
+          "items": [
+            {
+              "ex": "Ski hold (wall sit)",
+              "dose": "2 × 60 s"
+            },
+            {
+              "ex": "Standing calf raise",
+              "dose": "2 × 10",
+              "tempo": "3-0-3"
+            }
+          ]
+        }
+      ],
+      "minimum": "Nothing new, no personal bests in depth or load. ~60–70% of the last session's volume.",
+      "note": "Last eccentric bout before skiing Fri 18 Dec. After the AM run (finals)."
+    }
+  ],
+  "lift_rules": [
+    "Knee rule: every set ≤3/10 at the knee. Over 3 → stop that exercise and step back (higher box, −20% load or shorter range). Progress load OR depth (never both) only if every set was ≤2/10 and tomorrow's stairs score is at or below baseline. Score the knee, not thigh soreness.",
+    "Log every session: load × reps @ RPE, the knee's maximum during it, and tomorrow's stairs score. Record as Traditional Strength Training on the Watch.",
+    "RPE: 6 = 4 reps left · 7 = 3 left · 8 = 2 left · 9 = 1 left. No sets to failure except the cable crunch (1–2 left).",
+    "Add load when all sets hit the top of the rep range at or under the target RPE with knee ≤2/10: squat/RDL +10 lb (+5 if RPE right on target), bench +5 lb, calves +10%, DBs +5 lb/hand.",
+    "Soreness next day ≥4/10 → repeat the same loads next time. ≥6/10 or it changes your stride → skip legs next lift.",
+    "Never superset two exercises for the same muscle. Rest is timed — set a repeating timer."
+  ]
 }

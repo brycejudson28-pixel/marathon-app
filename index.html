@@ -71,6 +71,19 @@ nav{position:fixed;left:0;right:0;bottom:0;display:flex;justify-content:center;b
 nav .in{display:flex;max-width:520px;width:100%}
 nav button{flex:1;min-height:56px;background:none;border:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;font:500 11px var(--sans);color:var(--muted);cursor:pointer}
 nav button[aria-current="page"]{color:var(--acctext)}
+.lift{display:flex;flex-direction:column;gap:12px}
+.blk{border-top:1px solid var(--line);padding-top:12px;display:flex;flex-direction:column;gap:8px}
+.blk .bh{display:flex;flex-direction:column;gap:2px}
+.blk .bn{font-size:15px;font-weight:600}
+.blk .br{font-size:12px;color:var(--acctext)}
+.ex{display:flex;flex-direction:column;gap:2px;padding:8px 12px;background:var(--surf2);border-radius:10px}
+.ex .en{font-size:14px;font-weight:600}
+.ex .ed{font-family:var(--serif);font-size:17px;font-weight:600;font-variant-numeric:tabular-nums}
+.ex .em{font-size:12px;color:var(--muted);line-height:1.4}
+details.lc{background:var(--surf);border:1px solid var(--line);border-radius:18px;padding:14px 18px}
+details.lc summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:10px;align-items:baseline}
+details.lc summary::-webkit-details-marker{display:none}
+details.lc[open] summary{margin-bottom:12px}
 .foot{font-size:11px;color:var(--muted);text-align:center}
 [hidden]{display:none!important}
 </style>
@@ -80,6 +93,7 @@ nav button[aria-current="page"]{color:var(--acctext)}
 <nav aria-label="Sections"><div class="in">
   <button data-tab="today" aria-current="page"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M12 8v4l3 2"/></svg>Today</button>
   <button data-tab="week"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><rect x="4" y="5" width="16" height="15" rx="2"/><path d="M4 10h16M9 3v4M15 3v4"/></svg>Week</button>
+  <button data-tab="lift"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M6 8v8M18 8v8M3 10v4M21 10v4M6 12h12"/></svg>Lift</button>
   <button data-tab="plan"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M5 19V9M10 19V5M15 19v-7M20 19v-4"/></svg>Plan</button>
   <button data-tab="shoes"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 16h17a1 1 0 0 0 1-1c0-2-3-3-6-3l-3-5-3 1 1 3H6l-3-2z"/><path d="M3 16v2h18"/></svg>Shoes</button>
 </div></nav>
@@ -102,7 +116,23 @@ function shoeChip(key){
   return `<div class="shoe"><span class="dot" style="background:${esc(s.color)}"></span><span style="font-size:15px;font-weight:600">${esc(s.name)}</span><span class="num muted" style="margin-left:auto;font-size:13px;font-weight:400">${Math.round(s.miles)} mi</span></div>`;
 }
 
+function liftBody(L){
+  const blocks = L.blocks.map(b => `<div class="blk"><div class="bh"><span class="bn">${esc(b.name)}</span><span class="br">Rest: ${esc(b.rest)}</span></div>
+    ${b.items.map(x => `<div class="ex"><span class="en">${esc(x.ex)}</span><span class="ed">${esc(x.dose)}</span>${[x.load, x.tempo ? 'Tempo ' + x.tempo : '', x.note].filter(Boolean).map(v=>`<span class="em">${esc(v)}</span>`).join('')}</div>`).join('')}</div>`).join('');
+  return `<div class="lift">
+    ${L.note ? `<div class="p">${esc(L.note)}</div>` : ''}
+    <section class="alert"><b>Knee gate</b><div>${esc(L.gate)}</div><div>${esc(L.squat)}</div></section>
+    ${blocks}
+    ${L.minimum ? `<div class="blk"><span class="bn">Short on time</span><div class="p muted">${esc(L.minimum)}</div></div>` : ''}
+  </div>`;
+}
+const liftOf = d => d && d.lift_id && P.lifts ? P.lifts.find(l => l.id === d.lift_id) : null;
+
 function dayCard(d, heading){
+  const L = liftOf(d);
+  if(L) return `<section class="card"><div class="label">${heading}</div><h1 class="hero">${esc(L.title)}</h1>
+    <div class="stats"><div class="stat"><span class="v num">${esc(L.minutes.replace('~','').split(' ')[0])}<span class="u"> min</span></span><span class="label">Session</span></div></div>
+    ${d.detail ? `<div class="p muted">${esc(d.detail)}</div>` : ''}${liftBody(L)}</section>`;
   if(!d) return `<section class="card"><div class="label">${heading}</div><h1 class="hero">No session</h1><p class="p muted">Nothing in the plan for this date yet. It fills in at the Sunday review.</p></section>`;
   const stats = [];
   if(d.duration){ const [v,...u] = d.duration.split(' '); stats.push(`<div class="stat"><span class="v num">${esc(v)}<span class="u"> ${esc(u.join(' '))}</span></span><span class="label">Duration</span></div>`); }
@@ -128,7 +158,7 @@ function strip(){
   const cells = P.days.map(d => {
     const dt = parse(d.date);
     const cls = d.date === t ? 'today' : d.date < t ? 'past' : '';
-    const m = d.type === 'rest' ? 'Rest' : (d.distance_mi ? d.distance_mi : '');
+    const m = d.type === 'lift' ? 'Lift' : d.type === 'rest' ? 'Rest' : (d.distance_mi ? d.distance_mi : '');
     return `<button class="day ${cls} ${sel===d.date?'sel':''}" data-date="${d.date}" aria-label="${short(d.date)}"><span class="d">${DOW[dt.getDay()][0]}</span><span class="n">${dt.getDate()}</span><span class="m">${m}</span></button>`;
   }).join('');
   return `<section style="display:flex;flex-direction:column;gap:10px">
@@ -147,14 +177,14 @@ function header(){
 function viewToday(){
   const t = today(); const show = sel || t;
   const d = P.days.find(x => x.date === show);
-  const heading = show === t ? "Today's run" : short(show);
+  const heading = show === t ? (d && d.type==='lift' ? "Today's lift" : "Today's run") : short(show);
   if(!d && show === t){
-    const next = P.days.find(x => x.date > t && x.type !== 'rest');
+    const next = P.days.find(x => x.date > t && x.type !== 'rest' && x.type !== 'lift');
     return header() + dayCard(null, heading) + (next ? dayCard(next, 'Next · ' + short(next.date)) : '') + strip();
   }
   let extra = '';
   if(d && d.type === 'rest' && show === t){
-    const next = P.days.find(x => x.date > t && x.type !== 'rest');
+    const next = P.days.find(x => x.date > t && x.type !== 'rest' && x.type !== 'lift');
     if(next) extra = `<section class="card" style="padding:16px;gap:6px"><div class="row"><span class="label">Next run · ${short(next.date)}</span></div><div style="font-size:16px;font-weight:600">${esc(next.title)} · ${esc(next.duration||'')}</div>${next.shoe && P.shoes[next.shoe] ? `<div class="p muted">${esc(P.shoes[next.shoe].name)}</div>` : ''}</section>`;
   }
   return header() + dayCard(d, d && d.type==='rest' && show===t ? 'Today' : heading) + extra + strip();
@@ -164,7 +194,7 @@ function viewWeek(){
   const t = today();
   const rows = P.days.map(d => {
     const dt = parse(d.date);
-    const sub = [d.duration, d.distance_mi ? '~'+d.distance_mi+' mi' : '', d.hr ? 'HR '+d.hr : ''].filter(Boolean).join(' · ');
+    const LL = liftOf(d); const sub = LL ? LL.title.split(' · ').slice(1).join(' · ') + ' · ' + LL.minutes : [d.duration, d.distance_mi ? '~'+d.distance_mi+' mi' : '', d.hr ? 'HR '+d.hr : ''].filter(Boolean).join(' · ');
     const shoe = d.shoe && P.shoes[d.shoe] ? `<span class="dot" style="background:${esc(P.shoes[d.shoe].color)};width:9px;height:9px;display:inline-block;margin-right:6px"></span>${esc(P.shoes[d.shoe].name)}` : '';
     return `<button class="wkrow ${d.date===t?'istoday':''}" data-date="${d.date}">
       <div class="date"><div class="label">${DOW[dt.getDay()].slice(0,3)}</div><div class="n">${dt.getDate()}</div></div>
@@ -207,6 +237,16 @@ function viewPlan(){
   ${P.checkpoint ? `<section class="card" style="padding:16px;gap:6px"><div class="row"><span class="label">Next checkpoint</span><span class="label">${short(P.checkpoint.date)}</span></div><div class="p">${esc(P.checkpoint.text)}</div></section>` : ''}`;
 }
 
+function viewLift(){
+  const t = today();
+  const up = (P.lifts||[]).filter(l => l.date >= t);
+  const cards = up.map((l,i) => `<details class="lc" ${i===0?'open':''}><summary><span style="font-size:16px;font-weight:600">${esc(l.title)}</span><span class="label">${short(l.date)} · ${esc(l.minutes)}</span></summary>${liftBody(l)}</details>`).join('');
+  const rules = (P.lift_rules||[]).map(r=>`<li>${esc(r)}</li>`).join('');
+  return `<h1 class="page">Lifting</h1>
+  ${cards || '<p class="p muted">No lifts scheduled yet.</p>'}
+  ${rules ? `<section class="card"><div class="label">Rules for every session</div><ul class="list">${rules}</ul></section>` : ''}`;
+}
+
 function viewShoes(){
   const rows = Object.values(P.shoes).map(s => {
     const pct = Math.min(100, Math.round(s.miles / s.retire * 100));
@@ -218,7 +258,7 @@ function viewShoes(){
 }
 
 function render(){
-  const v = {today:viewToday, week:viewWeek, plan:viewPlan, shoes:viewShoes}[tab]();
+  const v = {today:viewToday, week:viewWeek, lift:viewLift, plan:viewPlan, shoes:viewShoes}[tab]();
   $('#app').innerHTML = v + `<p class="foot">Plan updated ${short(P.updated)}</p>`;
   document.querySelectorAll('nav button').forEach(b => { if(b.dataset.tab === tab) b.setAttribute('aria-current','page'); else b.removeAttribute('aria-current'); });
   document.querySelectorAll('[data-date]').forEach(b => b.onclick = () => { sel = b.dataset.date === today() ? null : b.dataset.date; tab = 'today'; render(); scrollTo(0,0); });
