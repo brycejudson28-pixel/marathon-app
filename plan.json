@@ -258,7 +258,7 @@
               "load": "RPE 7"
             },
             {
-              "ex": "Single-leg DB calf raise off a step (straight knee; reps per leg)",
+              "ex": "Standing barbell calf raise in the squat rack (bar on back, balls of feet on a plate, safeties set) — or single-leg with a dip belt",
               "dose": "2 × 15",
               "load": "RPE 8",
               "tempo": "3-0-3"
@@ -335,7 +335,7 @@
               "tempo": "2-0-1"
             },
             {
-              "ex": "B3 · Single-leg DB calf raise off a step (straight knee; reps per leg)",
+              "ex": "B3 · Standing barbell calf raise in the squat rack (bar on back, balls of feet on a plate, safeties set) — or single-leg with a dip belt",
               "dose": "2 × 15",
               "load": "RPE 8",
               "tempo": "3-0-3",
@@ -471,7 +471,7 @@
               "load": "RPE 7"
             },
             {
-              "ex": "Single-leg DB calf raise off a step (straight knee; reps per leg)",
+              "ex": "Standing barbell calf raise in the squat rack (bar on back, balls of feet on a plate, safeties set) — or single-leg with a dip belt",
               "dose": "2 × 12",
               "load": "RPE 8",
               "tempo": "3-0-3"
@@ -548,7 +548,7 @@
               "tempo": "2-0-1"
             },
             {
-              "ex": "B3 · Single-leg DB calf raise off a step (straight knee; reps per leg)",
+              "ex": "B3 · Standing barbell calf raise in the squat rack (bar on back, balls of feet on a plate, safeties set) — or single-leg with a dip belt",
               "dose": "3 × 12",
               "load": "RPE 8",
               "tempo": "3-0-3",
@@ -678,7 +678,7 @@
               "load": "RPE 7"
             },
             {
-              "ex": "Single-leg DB calf raise off a step (straight knee; reps per leg)",
+              "ex": "Standing barbell calf raise in the squat rack (bar on back, balls of feet on a plate, safeties set) — or single-leg with a dip belt",
               "dose": "2 × 10",
               "load": "RPE 8",
               "tempo": "3-0-3"
@@ -755,7 +755,7 @@
               "tempo": "2-0-1"
             },
             {
-              "ex": "B3 · Single-leg DB calf raise off a step (straight knee; reps per leg)",
+              "ex": "B3 · Standing barbell calf raise in the squat rack (bar on back, balls of feet on a plate, safeties set) — or single-leg with a dip belt",
               "dose": "3 × 10",
               "load": "RPE 8",
               "tempo": "3-0-3",
@@ -885,7 +885,7 @@
               "load": "RPE 7"
             },
             {
-              "ex": "Single-leg DB calf raise off a step (straight knee; reps per leg)",
+              "ex": "Standing barbell calf raise in the squat rack (bar on back, balls of feet on a plate, safeties set) — or single-leg with a dip belt",
               "dose": "2 × 8",
               "load": "RPE 8",
               "tempo": "3-0-3"
@@ -962,7 +962,7 @@
               "tempo": "2-0-1"
             },
             {
-              "ex": "B3 · Single-leg DB calf raise off a step (straight knee; reps per leg)",
+              "ex": "B3 · Standing barbell calf raise in the squat rack (bar on back, balls of feet on a plate, safeties set) — or single-leg with a dip belt",
               "dose": "3 × 8",
               "load": "RPE 8",
               "tempo": "3-0-3",
@@ -1092,8 +1092,8 @@
               "dose": "2 × 60 s"
             },
             {
-              "ex": "Single-leg DB calf raise off a step",
-              "dose": "2 × 10 per leg",
+              "ex": "Standing barbell calf raise in the rack",
+              "dose": "2 × 10",
               "tempo": "3-0-3"
             }
           ]
