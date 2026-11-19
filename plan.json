@@ -207,7 +207,7 @@
               "dose": "2 × 8",
               "load": "RPE 6–7. Nothing near failure (first-2-weeks soreness ramp)",
               "tempo": "3-0-1",
-              "note": "Knees soft 15–20°, bar on thighs, to mid-shin or hamstring limit. One ramp set first"
+              "note": "Knees soft 15–20°, bar on thighs, to mid-shin or hamstring limit. One ramp set first. GRIP: double overhand on every set you can; straps (or mixed grip) only on the last work set, and only if grip goes before the hamstrings"
             },
             {
               "ex": "B2 · Ab-wheel rollout, kneeling",
@@ -266,6 +266,12 @@
             {
               "ex": "Cable hip abduction (ankle strap)",
               "dose": "1 × 15 per side"
+            },
+            {
+              "ex": "Grip: heavy farmer hold or carry (DBs), double overhand",
+              "dose": "2 × 30 s",
+              "load": "Heaviest you can hold 30 s; +5–10 lb per hand when both sets go 30 s",
+              "note": "Last thing in the session, so grip fatigue never limits a main lift"
             }
           ]
         }
@@ -311,7 +317,7 @@
               "tempo": "2-s hold"
             },
             {
-              "ex": "A3 · Pull-up (band-assisted if <5; add weight once 3 × 8 clean)",
+              "ex": "A3 · Pull-up, no straps (band-assisted if <5; add weight once 3 × 8 clean)",
               "dose": "2 × 5–8",
               "load": "RPE 8",
               "tempo": "2-0-1"
@@ -376,6 +382,11 @@
               "dose": "2 × 30–45 s per side",
               "tempo": "hold",
               "note": "Every 2nd Session B: swap the last round for a forearm plank to ~2:30–3:00 (PRT)"
+            },
+            {
+              "ex": "C5 · Grip: dead hang from the pull-up bar",
+              "dose": "2 × max (to 60 s), then add a DB between the feet",
+              "note": "Last thing in the session"
             }
           ]
         }
@@ -420,7 +431,7 @@
               "dose": "3 × 8",
               "load": "RPE 7",
               "tempo": "3-0-1",
-              "note": "Knees soft 15–20°, bar on thighs, to mid-shin or hamstring limit. One ramp set first"
+              "note": "Knees soft 15–20°, bar on thighs, to mid-shin or hamstring limit. One ramp set first. GRIP: double overhand on every set you can; straps (or mixed grip) only on the last work set, and only if grip goes before the hamstrings"
             },
             {
               "ex": "B2 · Ab-wheel rollout, kneeling",
@@ -479,6 +490,12 @@
             {
               "ex": "Cable hip abduction (ankle strap)",
               "dose": "1 × 15 per side"
+            },
+            {
+              "ex": "Grip: heavy farmer hold or carry (DBs), double overhand",
+              "dose": "2 × 30 s",
+              "load": "Heaviest you can hold 30 s; +5–10 lb per hand when both sets go 30 s",
+              "note": "Last thing in the session, so grip fatigue never limits a main lift"
             }
           ]
         }
@@ -524,7 +541,7 @@
               "tempo": "2-s hold"
             },
             {
-              "ex": "A3 · Pull-up (band-assisted if <5; add weight once 3 × 8 clean)",
+              "ex": "A3 · Pull-up, no straps (band-assisted if <5; add weight once 3 × 8 clean)",
               "dose": "3 × 5–8",
               "load": "RPE 8",
               "tempo": "2-0-1"
@@ -583,6 +600,11 @@
               "dose": "2 × 30–45 s per side",
               "tempo": "hold",
               "note": "Every 2nd Session B: swap the last round for a forearm plank to ~2:30–3:00 (PRT)"
+            },
+            {
+              "ex": "C5 · Grip: dead hang from the pull-up bar",
+              "dose": "2 × max (to 60 s), then add a DB between the feet",
+              "note": "Last thing in the session"
             }
           ]
         }
@@ -627,7 +649,7 @@
               "dose": "3 × 6",
               "load": "RPE 7–8",
               "tempo": "3-0-1",
-              "note": "Knees soft 15–20°, bar on thighs, to mid-shin or hamstring limit. One ramp set first"
+              "note": "Knees soft 15–20°, bar on thighs, to mid-shin or hamstring limit. One ramp set first. GRIP: double overhand on every set you can; straps (or mixed grip) only on the last work set, and only if grip goes before the hamstrings"
             },
             {
               "ex": "B2 · Ab-wheel rollout, kneeling",
@@ -686,6 +708,12 @@
             {
               "ex": "Cable hip abduction (ankle strap)",
               "dose": "1 × 15 per side"
+            },
+            {
+              "ex": "Grip: heavy farmer hold or carry (DBs), double overhand",
+              "dose": "2 × 30 s",
+              "load": "Heaviest you can hold 30 s; +5–10 lb per hand when both sets go 30 s",
+              "note": "Last thing in the session, so grip fatigue never limits a main lift"
             }
           ]
         }
@@ -731,7 +759,7 @@
               "tempo": "2-s hold"
             },
             {
-              "ex": "A3 · Pull-up (band-assisted if <5; add weight once 3 × 8 clean)",
+              "ex": "A3 · Pull-up, no straps (band-assisted if <5; add weight once 3 × 8 clean)",
               "dose": "3 × 6–8",
               "load": "RPE 8",
               "tempo": "2-0-1"
@@ -790,6 +818,11 @@
               "dose": "2 × 30–45 s per side",
               "tempo": "hold",
               "note": "Every 2nd Session B: swap the last round for a forearm plank to ~2:30–3:00 (PRT)"
+            },
+            {
+              "ex": "C5 · Grip: dead hang from the pull-up bar",
+              "dose": "2 × max (to 60 s), then add a DB between the feet",
+              "note": "Last thing in the session"
             }
           ]
         }
@@ -834,7 +867,7 @@
               "dose": "3 × 5",
               "load": "RPE 8 on top sets",
               "tempo": "3-0-1",
-              "note": "Knees soft 15–20°, bar on thighs, to mid-shin or hamstring limit. One ramp set first"
+              "note": "Knees soft 15–20°, bar on thighs, to mid-shin or hamstring limit. One ramp set first. GRIP: double overhand on every set you can; straps (or mixed grip) only on the last work set, and only if grip goes before the hamstrings"
             },
             {
               "ex": "B2 · Ab-wheel rollout, kneeling",
@@ -893,6 +926,12 @@
             {
               "ex": "Cable hip abduction (ankle strap)",
               "dose": "1 × 15 per side"
+            },
+            {
+              "ex": "Grip: heavy farmer hold or carry (DBs), double overhand",
+              "dose": "2 × 30 s",
+              "load": "Heaviest you can hold 30 s; +5–10 lb per hand when both sets go 30 s",
+              "note": "Last thing in the session, so grip fatigue never limits a main lift"
             }
           ]
         }
@@ -938,7 +977,7 @@
               "tempo": "2-s hold"
             },
             {
-              "ex": "A3 · Pull-up (band-assisted if <5; add weight once 3 × 8 clean)",
+              "ex": "A3 · Pull-up, no straps (band-assisted if <5; add weight once 3 × 8 clean)",
               "dose": "3 × 5–6",
               "load": "RPE 8",
               "tempo": "2-0-1"
@@ -997,6 +1036,11 @@
               "dose": "2 × 30–45 s per side",
               "tempo": "hold",
               "note": "Every 2nd Session B: swap the last round for a forearm plank to ~2:30–3:00 (PRT)"
+            },
+            {
+              "ex": "C5 · Grip: dead hang from the pull-up bar",
+              "dose": "2 × max (to 60 s), then add a DB between the feet",
+              "note": "Last thing in the session"
             }
           ]
         }
@@ -1105,6 +1149,7 @@
   ],
   "lift_rules": [
     "Knee rule: every set ≤3/10 at the knee. Over 3 → stop that exercise and step back (higher box, −20% load or shorter range). Progress load OR depth (never both) only if every set was ≤2/10 and tomorrow's stairs score is at or below baseline. Score the knee, not thigh soreness.",
+    "Grip (Bryce's usual bottleneck on return): no straps on warm-up/ramp sets or pull-ups; on the RDL, straps or mixed grip only on the last work set and only if grip fails before the hamstrings. Farmer holds end Session A and dead hangs end Session B, so grip trains twice a week without limiting the main lifts. Chalk if the gym allows it.",
     "Log every session: load × reps @ RPE, the knee's maximum during it, and tomorrow's stairs score. Record as Traditional Strength Training on the Watch.",
     "RPE: 6 = 4 reps left · 7 = 3 left · 8 = 2 left · 9 = 1 left. No sets to failure except the cable crunch (1–2 left).",
     "Add load when all sets hit the top of the rep range at or under the target RPE with knee ≤2/10: squat/RDL +10 lb (+5 if RPE right on target), bench +5 lb, calves +10%, DBs +5 lb/hand.",
