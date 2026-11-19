@@ -207,7 +207,7 @@
               "dose": "2 × 8",
               "load": "RPE 6–7. Nothing near failure (first-2-weeks soreness ramp)",
               "tempo": "3-0-1",
-              "note": "Knees soft 15–20°, bar on thighs, to mid-shin or hamstring limit. One ramp set first. GRIP: double overhand on every set you can; straps (or mixed grip) only on the last work set, and only if grip goes before the hamstrings"
+              "note": "Knees soft 15–20°, bar on thighs, to mid-shin or hamstring limit. One ramp set first. GRIP: double overhand on every set you can; switch to mixed grip (or hook grip) only on the last work set, and only if grip goes before the hamstrings. Swap which hand is underhand each set"
             },
             {
               "ex": "B2 · Ab-wheel rollout, kneeling",
@@ -431,7 +431,7 @@
               "dose": "3 × 8",
               "load": "RPE 7",
               "tempo": "3-0-1",
-              "note": "Knees soft 15–20°, bar on thighs, to mid-shin or hamstring limit. One ramp set first. GRIP: double overhand on every set you can; straps (or mixed grip) only on the last work set, and only if grip goes before the hamstrings"
+              "note": "Knees soft 15–20°, bar on thighs, to mid-shin or hamstring limit. One ramp set first. GRIP: double overhand on every set you can; switch to mixed grip (or hook grip) only on the last work set, and only if grip goes before the hamstrings. Swap which hand is underhand each set"
             },
             {
               "ex": "B2 · Ab-wheel rollout, kneeling",
@@ -649,7 +649,7 @@
               "dose": "3 × 6",
               "load": "RPE 7–8",
               "tempo": "3-0-1",
-              "note": "Knees soft 15–20°, bar on thighs, to mid-shin or hamstring limit. One ramp set first. GRIP: double overhand on every set you can; straps (or mixed grip) only on the last work set, and only if grip goes before the hamstrings"
+              "note": "Knees soft 15–20°, bar on thighs, to mid-shin or hamstring limit. One ramp set first. GRIP: double overhand on every set you can; switch to mixed grip (or hook grip) only on the last work set, and only if grip goes before the hamstrings. Swap which hand is underhand each set"
             },
             {
               "ex": "B2 · Ab-wheel rollout, kneeling",
@@ -867,7 +867,7 @@
               "dose": "3 × 5",
               "load": "RPE 8 on top sets",
               "tempo": "3-0-1",
-              "note": "Knees soft 15–20°, bar on thighs, to mid-shin or hamstring limit. One ramp set first. GRIP: double overhand on every set you can; straps (or mixed grip) only on the last work set, and only if grip goes before the hamstrings"
+              "note": "Knees soft 15–20°, bar on thighs, to mid-shin or hamstring limit. One ramp set first. GRIP: double overhand on every set you can; switch to mixed grip (or hook grip) only on the last work set, and only if grip goes before the hamstrings. Swap which hand is underhand each set"
             },
             {
               "ex": "B2 · Ab-wheel rollout, kneeling",
@@ -1149,7 +1149,7 @@
   ],
   "lift_rules": [
     "Knee rule: every set ≤3/10 at the knee. Over 3 → stop that exercise and step back (higher box, −20% load or shorter range). Progress load OR depth (never both) only if every set was ≤2/10 and tomorrow's stairs score is at or below baseline. Score the knee, not thigh soreness.",
-    "Grip (Bryce's usual bottleneck on return): no straps on warm-up/ramp sets or pull-ups; on the RDL, straps or mixed grip only on the last work set and only if grip fails before the hamstrings. Farmer holds end Session A and dead hangs end Session B, so grip trains twice a week without limiting the main lifts. Chalk if the gym allows it.",
+    "Grip (your usual bottleneck on return): double overhand on ramp sets, pull-ups and every RDL set you can. On the RDL, switch to mixed grip (or hook grip) only on the last work set, and only if grip fails before the hamstrings; swap which hand is underhand each set. Farmer holds end Session A and dead hangs end Session B, so grip trains twice a week without limiting the main lifts. Chalk if the gym allows it.",
     "Log every session: load × reps @ RPE, the knee's maximum during it, and tomorrow's stairs score. Record as Traditional Strength Training on the Watch.",
     "RPE: 6 = 4 reps left · 7 = 3 left · 8 = 2 left · 9 = 1 left. No sets to failure except the cable crunch (1–2 left).",
     "Add load when all sets hit the top of the rep range at or under the target RPE with knee ≤2/10: squat/RDL +10 lb (+5 if RPE right on target), bench +5 lb, calves +10%, DBs +5 lb/hand.",
