@@ -175,44 +175,17 @@
       "id": "S2",
       "session": "A",
       "title": "S2 · Session A — squat day",
-      "minutes": "~47 min",
+      "minutes": "~42 min",
       "gate": "Knee rule: every set ≤3/10 at the knee. Over 3 → stop that exercise and step back (higher box, −20% load or shorter range). Progress load OR depth (never both) only if every set was ≤2/10 and tomorrow's stairs score is at or below baseline. Score the knee, not thigh soreness.",
-      "squat": "Squat depth by knee phase: K1 box squat to a parallel box, box lowered 2 in at a time · K2 free high-bar back squat to parallel (paused reps first 2 sessions) · K3 full depth. Stance hip-width or slightly wider, toes 10–20° out; on the box, touch and pause staying tight.",
+      "squat": "Back squat to parallel, straight load progression (no box). Loads are targets: top set above target RPE → hold the load; any set >2/10 at the knee → no increase; >3/10 → −20% for the rest of the session.",
       "blocks": [
-        {
-          "name": "Warm-up · 5 min",
-          "rest": "none",
-          "items": [
-            {
-              "ex": "Easy bike",
-              "dose": "3 min"
-            },
-            {
-              "ex": "Band monster walks",
-              "dose": "10 steps forward, back, each side"
-            },
-            {
-              "ex": "Dead bug",
-              "dose": "1 × 8 per side"
-            },
-            {
-              "ex": "Spanish squat hold (while K0–K2)",
-              "dose": "2 × 30–45 s",
-              "load": "~60° knee bend"
-            },
-            {
-              "ex": "Single-leg balance (K2+: 5 snap-downs + 3 hop-and-hold per leg)",
-              "dose": "1 × 30 s per leg"
-            }
-          ]
-        },
         {
           "name": "Superset 1 · 14 min",
           "rest": "75 s after each exercise, alternate A1 ↔ A2",
           "items": [
             {
-              "ex": "A1 · Back squat (depth by knee phase)",
-              "dose": "2 × 8",
+              "ex": "A1 · Back squat to parallel",
+              "dose": "2 × 8 @ 165 lb (175 if Wed's 155 felt RPE ≤6)",
               "load": "RPE 6–7. Nothing near failure (first-2-weeks soreness ramp)",
               "tempo": "3-1-X (3 s down, 1 s pause, up fast)",
               "note": "Ramp first: empty bar × 8, ~50% × 5"
@@ -297,40 +270,18 @@
           ]
         }
       ],
-      "minimum": "Short on time (~28 min): warm-up 4 min · Superset 1 × 3 rounds · RDL + seated calf × 2 · Nordic/ham curl × 1 + knee extension or ski hold × 1.",
-      "note": "Starting loads: use Wed 18 Nov's box squat and RDL loads; add 5–10 lb only if every set was RPE ≤6 and knee ≤1/10. No loads noted → ramp: empty bar × 8, +20 lb per set of 5 until the bar slows or knee hits 2/10, then work at that minus ~10%. Machines/DBs: a weight you could lift ~4 more times than prescribed."
+      "minimum": "Short on time (~24 min): Superset 1 × 3 rounds · RDL + seated calf × 2 · Nordic/ham curl × 1 + knee extension or ski hold × 1.",
+      "note": "Squat: 165 lb (175 if Wed's 155 felt RPE ≤6). RDL: Wed's load +10 lb if it felt RPE ≤6, else repeat. No loads noted → ramp: empty bar × 8, +20 lb per set of 5 until the bar slows or knee hits 2/10, then work at that minus ~10%. Machines/DBs: a weight you could lift ~4 more times than prescribed."
     },
     {
       "date": "2026-11-22",
       "id": "S3",
       "session": "B",
       "title": "S3 · Session B — RDL, landing and pull day",
-      "minutes": "~42 min",
+      "minutes": "~39 min",
       "gate": "Knee rule: every set ≤3/10 at the knee. Over 3 → stop that exercise and step back (higher box, −20% load or shorter range). Progress load OR depth (never both) only if every set was ≤2/10 and tomorrow's stairs score is at or below baseline. Score the knee, not thigh soreness.",
-      "squat": "Squat depth by knee phase: K1 box squat to a parallel box, box lowered 2 in at a time · K2 free high-bar back squat to parallel (paused reps first 2 sessions) · K3 full depth. Stance hip-width or slightly wider, toes 10–20° out; on the box, touch and pause staying tight.",
+      "squat": "Back squat to parallel, straight load progression (no box). Loads are targets: top set above target RPE → hold the load; any set >2/10 at the knee → no increase; >3/10 → −20% for the rest of the session.",
       "blocks": [
-        {
-          "name": "Warm-up · 3–5 min",
-          "rest": "none",
-          "items": [
-            {
-              "ex": "Band monster walks",
-              "dose": "10 steps each way"
-            },
-            {
-              "ex": "Bodyweight box squat",
-              "dose": "5"
-            },
-            {
-              "ex": "Spanish squat hold (K0–K2)",
-              "dose": "1 × 45 s"
-            },
-            {
-              "ex": "Easy bike (lift-only day)",
-              "dose": "3 min"
-            }
-          ]
-        },
         {
           "name": "Landing · 5 min",
           "rest": "as needed — quality first",
@@ -347,8 +298,8 @@
           "rest": "30 s → A2 · 30 s → A3 · 45 s → A1",
           "items": [
             {
-              "ex": "A1 · Back squat, lighter (depth by knee phase)",
-              "dose": "2 × 5",
+              "ex": "A1 · Back squat to parallel, lighter",
+              "dose": "2 × 5 @ 150 lb",
               "load": "RPE 6–7, ~85–90% of Session A load",
               "tempo": "2-0-X, fast up",
               "note": "Two ramp sets first"
@@ -437,44 +388,17 @@
       "id": "S4",
       "session": "A",
       "title": "S4 · Session A — squat day",
-      "minutes": "~47 min",
+      "minutes": "~42 min",
       "gate": "Knee rule: every set ≤3/10 at the knee. Over 3 → stop that exercise and step back (higher box, −20% load or shorter range). Progress load OR depth (never both) only if every set was ≤2/10 and tomorrow's stairs score is at or below baseline. Score the knee, not thigh soreness.",
-      "squat": "Squat depth by knee phase: K1 box squat to a parallel box, box lowered 2 in at a time · K2 free high-bar back squat to parallel (paused reps first 2 sessions) · K3 full depth. Stance hip-width or slightly wider, toes 10–20° out; on the box, touch and pause staying tight.",
+      "squat": "Back squat to parallel, straight load progression (no box). Loads are targets: top set above target RPE → hold the load; any set >2/10 at the knee → no increase; >3/10 → −20% for the rest of the session.",
       "blocks": [
-        {
-          "name": "Warm-up · 5 min",
-          "rest": "none",
-          "items": [
-            {
-              "ex": "Easy bike",
-              "dose": "3 min"
-            },
-            {
-              "ex": "Band monster walks",
-              "dose": "10 steps forward, back, each side"
-            },
-            {
-              "ex": "Dead bug",
-              "dose": "1 × 8 per side"
-            },
-            {
-              "ex": "Spanish squat hold (while K0–K2)",
-              "dose": "2 × 30–45 s",
-              "load": "~60° knee bend"
-            },
-            {
-              "ex": "Single-leg balance (K2+: 5 snap-downs + 3 hop-and-hold per leg)",
-              "dose": "1 × 30 s per leg"
-            }
-          ]
-        },
         {
           "name": "Superset 1 · 14 min",
           "rest": "75 s after each exercise, alternate A1 ↔ A2",
           "items": [
             {
-              "ex": "A1 · Back squat (depth by knee phase)",
-              "dose": "3 × 8 (→ 3 × 6 once on the free squat)",
+              "ex": "A1 · Back squat to parallel",
+              "dose": "3 × 8 @ 185 lb",
               "load": "RPE 7",
               "tempo": "3-1-X (3 s down, 1 s pause, up fast)",
               "note": "Ramp first: empty bar × 8, ~50% × 5"
@@ -559,7 +483,7 @@
           ]
         }
       ],
-      "minimum": "Short on time (~28 min): warm-up 4 min · Superset 1 × 3 rounds · RDL + seated calf × 2 · Nordic/ham curl × 1 + knee extension or ski hold × 1.",
+      "minimum": "Short on time (~24 min): Superset 1 × 3 rounds · RDL + seated calf × 2 · Nordic/ham curl × 1 + knee extension or ski hold × 1.",
       "note": "Hudson. Achilles check before the session: single-leg heel raises to fatigue, each leg; note reps."
     },
     {
@@ -567,32 +491,10 @@
       "id": "S5",
       "session": "B",
       "title": "S5 · Session B — RDL, landing and pull day",
-      "minutes": "~42 min",
+      "minutes": "~39 min",
       "gate": "Knee rule: every set ≤3/10 at the knee. Over 3 → stop that exercise and step back (higher box, −20% load or shorter range). Progress load OR depth (never both) only if every set was ≤2/10 and tomorrow's stairs score is at or below baseline. Score the knee, not thigh soreness.",
-      "squat": "Squat depth by knee phase: K1 box squat to a parallel box, box lowered 2 in at a time · K2 free high-bar back squat to parallel (paused reps first 2 sessions) · K3 full depth. Stance hip-width or slightly wider, toes 10–20° out; on the box, touch and pause staying tight.",
+      "squat": "Back squat to parallel, straight load progression (no box). Loads are targets: top set above target RPE → hold the load; any set >2/10 at the knee → no increase; >3/10 → −20% for the rest of the session.",
       "blocks": [
-        {
-          "name": "Warm-up · 3–5 min",
-          "rest": "none",
-          "items": [
-            {
-              "ex": "Band monster walks",
-              "dose": "10 steps each way"
-            },
-            {
-              "ex": "Bodyweight box squat",
-              "dose": "5"
-            },
-            {
-              "ex": "Spanish squat hold (K0–K2)",
-              "dose": "1 × 45 s"
-            },
-            {
-              "ex": "Easy bike (lift-only day)",
-              "dose": "3 min"
-            }
-          ]
-        },
         {
           "name": "Landing · 5 min",
           "rest": "as needed — quality first",
@@ -609,8 +511,8 @@
           "rest": "30 s → A2 · 30 s → A3 · 45 s → A1",
           "items": [
             {
-              "ex": "A1 · Back squat, lighter (depth by knee phase)",
-              "dose": "3 × 5",
+              "ex": "A1 · Back squat to parallel, lighter",
+              "dose": "3 × 5 @ 165 lb",
               "load": "RPE 6–7, ~85–90% of Session A load",
               "tempo": "2-0-X, fast up",
               "note": "Two ramp sets first"
@@ -693,44 +595,17 @@
       "id": "S6",
       "session": "A",
       "title": "S6 · Session A — squat day",
-      "minutes": "~47 min",
+      "minutes": "~42 min",
       "gate": "Knee rule: every set ≤3/10 at the knee. Over 3 → stop that exercise and step back (higher box, −20% load or shorter range). Progress load OR depth (never both) only if every set was ≤2/10 and tomorrow's stairs score is at or below baseline. Score the knee, not thigh soreness.",
-      "squat": "Squat depth by knee phase: K1 box squat to a parallel box, box lowered 2 in at a time · K2 free high-bar back squat to parallel (paused reps first 2 sessions) · K3 full depth. Stance hip-width or slightly wider, toes 10–20° out; on the box, touch and pause staying tight.",
+      "squat": "Back squat to parallel, straight load progression (no box). Loads are targets: top set above target RPE → hold the load; any set >2/10 at the knee → no increase; >3/10 → −20% for the rest of the session.",
       "blocks": [
-        {
-          "name": "Warm-up · 5 min",
-          "rest": "none",
-          "items": [
-            {
-              "ex": "Easy bike",
-              "dose": "3 min"
-            },
-            {
-              "ex": "Band monster walks",
-              "dose": "10 steps forward, back, each side"
-            },
-            {
-              "ex": "Dead bug",
-              "dose": "1 × 8 per side"
-            },
-            {
-              "ex": "Spanish squat hold (while K0–K2)",
-              "dose": "2 × 30–45 s",
-              "load": "~60° knee bend"
-            },
-            {
-              "ex": "Single-leg balance (K2+: 5 snap-downs + 3 hop-and-hold per leg)",
-              "dose": "1 × 30 s per leg"
-            }
-          ]
-        },
         {
           "name": "Superset 1 · 14 min",
           "rest": "75 s after each exercise, alternate A1 ↔ A2",
           "items": [
             {
-              "ex": "A1 · Back squat (depth by knee phase)",
-              "dose": "3 × 6",
+              "ex": "A1 · Back squat to parallel",
+              "dose": "3 × 6 @ 205 lb",
               "load": "RPE 7–8",
               "tempo": "3-1-X (3 s down, 1 s pause, up fast)",
               "note": "Ramp first: empty bar × 8, ~50% × 5"
@@ -815,7 +690,7 @@
           ]
         }
       ],
-      "minimum": "Short on time (~28 min): warm-up 4 min · Superset 1 × 3 rounds · RDL + seated calf × 2 · Nordic/ham curl × 1 + knee extension or ski hold × 1.",
+      "minimum": "Short on time (~24 min): Superset 1 × 3 rounds · RDL + seated calf × 2 · Nordic/ham curl × 1 + knee extension or ski hold × 1.",
       "note": "Wednesday lift-only day (pending your OK on dropping the Wed easy run)."
     },
     {
@@ -823,32 +698,10 @@
       "id": "S7",
       "session": "B",
       "title": "S7 · Session B — RDL, landing and pull day",
-      "minutes": "~42 min",
+      "minutes": "~39 min",
       "gate": "Knee rule: every set ≤3/10 at the knee. Over 3 → stop that exercise and step back (higher box, −20% load or shorter range). Progress load OR depth (never both) only if every set was ≤2/10 and tomorrow's stairs score is at or below baseline. Score the knee, not thigh soreness.",
-      "squat": "Squat depth by knee phase: K1 box squat to a parallel box, box lowered 2 in at a time · K2 free high-bar back squat to parallel (paused reps first 2 sessions) · K3 full depth. Stance hip-width or slightly wider, toes 10–20° out; on the box, touch and pause staying tight.",
+      "squat": "Back squat to parallel, straight load progression (no box). Loads are targets: top set above target RPE → hold the load; any set >2/10 at the knee → no increase; >3/10 → −20% for the rest of the session.",
       "blocks": [
-        {
-          "name": "Warm-up · 3–5 min",
-          "rest": "none",
-          "items": [
-            {
-              "ex": "Band monster walks",
-              "dose": "10 steps each way"
-            },
-            {
-              "ex": "Bodyweight box squat",
-              "dose": "5"
-            },
-            {
-              "ex": "Spanish squat hold (K0–K2)",
-              "dose": "1 × 45 s"
-            },
-            {
-              "ex": "Easy bike (lift-only day)",
-              "dose": "3 min"
-            }
-          ]
-        },
         {
           "name": "Landing · 5 min",
           "rest": "as needed — quality first",
@@ -865,8 +718,8 @@
           "rest": "30 s → A2 · 30 s → A3 · 45 s → A1",
           "items": [
             {
-              "ex": "A1 · Back squat, lighter (depth by knee phase)",
-              "dose": "3 × 4, fast up",
+              "ex": "A1 · Back squat to parallel, lighter",
+              "dose": "3 × 4, fast up @ 185 lb",
               "load": "RPE 6–7, ~85–90% of Session A load",
               "tempo": "2-0-X, fast up",
               "note": "Two ramp sets first"
@@ -949,44 +802,17 @@
       "id": "S8",
       "session": "A",
       "title": "S8 · Session A — squat day",
-      "minutes": "~47 min",
+      "minutes": "~42 min",
       "gate": "Knee rule: every set ≤3/10 at the knee. Over 3 → stop that exercise and step back (higher box, −20% load or shorter range). Progress load OR depth (never both) only if every set was ≤2/10 and tomorrow's stairs score is at or below baseline. Score the knee, not thigh soreness.",
-      "squat": "Squat depth by knee phase: K1 box squat to a parallel box, box lowered 2 in at a time · K2 free high-bar back squat to parallel (paused reps first 2 sessions) · K3 full depth. Stance hip-width or slightly wider, toes 10–20° out; on the box, touch and pause staying tight.",
+      "squat": "Back squat to parallel, straight load progression (no box). Loads are targets: top set above target RPE → hold the load; any set >2/10 at the knee → no increase; >3/10 → −20% for the rest of the session.",
       "blocks": [
-        {
-          "name": "Warm-up · 5 min",
-          "rest": "none",
-          "items": [
-            {
-              "ex": "Easy bike",
-              "dose": "3 min"
-            },
-            {
-              "ex": "Band monster walks",
-              "dose": "10 steps forward, back, each side"
-            },
-            {
-              "ex": "Dead bug",
-              "dose": "1 × 8 per side"
-            },
-            {
-              "ex": "Spanish squat hold (while K0–K2)",
-              "dose": "2 × 30–45 s",
-              "load": "~60° knee bend"
-            },
-            {
-              "ex": "Single-leg balance (K2+: 5 snap-downs + 3 hop-and-hold per leg)",
-              "dose": "1 × 30 s per leg"
-            }
-          ]
-        },
         {
           "name": "Superset 1 · 14 min",
           "rest": "75 s after each exercise, alternate A1 ↔ A2",
           "items": [
             {
-              "ex": "A1 · Back squat (depth by knee phase)",
-              "dose": "4 × 4–5 (≈81–83% 1RM)",
+              "ex": "A1 · Back squat to parallel",
+              "dose": "4 × 5 @ 225 lb",
               "load": "RPE 8 on top sets",
               "tempo": "3-1-X (3 s down, 1 s pause, up fast)",
               "note": "Ramp first: empty bar × 8, ~50% × 5"
@@ -1071,7 +897,7 @@
           ]
         }
       ],
-      "minimum": "Short on time (~28 min): warm-up 4 min · Superset 1 × 3 rounds · RDL + seated calf × 2 · Nordic/ham curl × 1 + knee extension or ski hold × 1.",
+      "minimum": "Short on time (~24 min): Superset 1 × 3 rounds · RDL + seated calf × 2 · Nordic/ham curl × 1 + knee extension or ski hold × 1.",
       "note": "Finals: PM, ≥3 h after the AM run. If an exam blocks the evening, lift Thu 10 instead and skip S9. Achilles heel-raise check before the session."
     },
     {
@@ -1079,32 +905,10 @@
       "id": "S9",
       "session": "B",
       "title": "S9 · Session B — RDL, landing and pull day",
-      "minutes": "~42 min",
+      "minutes": "~39 min",
       "gate": "Knee rule: every set ≤3/10 at the knee. Over 3 → stop that exercise and step back (higher box, −20% load or shorter range). Progress load OR depth (never both) only if every set was ≤2/10 and tomorrow's stairs score is at or below baseline. Score the knee, not thigh soreness.",
-      "squat": "Squat depth by knee phase: K1 box squat to a parallel box, box lowered 2 in at a time · K2 free high-bar back squat to parallel (paused reps first 2 sessions) · K3 full depth. Stance hip-width or slightly wider, toes 10–20° out; on the box, touch and pause staying tight.",
+      "squat": "Back squat to parallel, straight load progression (no box). Loads are targets: top set above target RPE → hold the load; any set >2/10 at the knee → no increase; >3/10 → −20% for the rest of the session.",
       "blocks": [
-        {
-          "name": "Warm-up · 3–5 min",
-          "rest": "none",
-          "items": [
-            {
-              "ex": "Band monster walks",
-              "dose": "10 steps each way"
-            },
-            {
-              "ex": "Bodyweight box squat",
-              "dose": "5"
-            },
-            {
-              "ex": "Spanish squat hold (K0–K2)",
-              "dose": "1 × 45 s"
-            },
-            {
-              "ex": "Easy bike (lift-only day)",
-              "dose": "3 min"
-            }
-          ]
-        },
         {
           "name": "Landing · 5 min",
           "rest": "as needed — quality first",
@@ -1121,8 +925,8 @@
           "rest": "30 s → A2 · 30 s → A3 · 45 s → A1",
           "items": [
             {
-              "ex": "A1 · Back squat, lighter (depth by knee phase)",
-              "dose": "3 × 3, fast up",
+              "ex": "A1 · Back squat to parallel, lighter",
+              "dose": "3 × 3, fast up @ 195 lb",
               "load": "RPE 6–7, ~85–90% of Session A load",
               "tempo": "2-0-X, fast up",
               "note": "Two ramp sets first"
@@ -1205,20 +1009,10 @@
       "id": "S10",
       "session": "S",
       "title": "S10 · Session S — ski final",
-      "minutes": "~35 min",
+      "minutes": "~32 min",
       "gate": "Knee rule: every set ≤3/10 at the knee. Over 3 → stop that exercise and step back (higher box, −20% load or shorter range). Progress load OR depth (never both) only if every set was ≤2/10 and tomorrow's stairs score is at or below baseline. Score the knee, not thigh soreness.",
-      "squat": "Squat depth by knee phase: K1 box squat to a parallel box, box lowered 2 in at a time · K2 free high-bar back squat to parallel (paused reps first 2 sessions) · K3 full depth. Stance hip-width or slightly wider, toes 10–20° out; on the box, touch and pause staying tight.",
+      "squat": "Back squat to parallel, straight load progression (no box). Loads are targets: top set above target RPE → hold the load; any set >2/10 at the knee → no increase; >3/10 → −20% for the rest of the session.",
       "blocks": [
-        {
-          "name": "Warm-up · 3 min",
-          "rest": "none",
-          "items": [
-            {
-              "ex": "Band monster walks + bodyweight squats",
-              "dose": "1 round"
-            }
-          ]
-        },
         {
           "name": "Landing · 3 min (familiar only)",
           "rest": "as needed",
@@ -1238,9 +1032,9 @@
           "rest": "75 s each",
           "items": [
             {
-              "ex": "Back squat, deepest familiar step",
-              "dose": "3 × 5",
-              "load": "RPE 7, ~10% below S8's top set",
+              "ex": "Back squat to parallel",
+              "dose": "3 × 5 @ ~205 lb",
+              "load": "RPE 7, ~10% below S8",
               "tempo": "3-1-X"
             },
             {
