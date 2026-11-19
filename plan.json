@@ -240,7 +240,7 @@
               "tempo": "3–5-s lowering"
             },
             {
-              "ex": "C3 · Seated barbell calf raise (soleus) — bar padded on knees, feet on a plate",
+              "ex": "C3 · Seated barbell calf raise (soleus) — unrack from pins at knee height, pad on bar, feet on a plate",
               "dose": "2 × 15",
               "load": "RPE 8",
               "tempo": "3-0-3 (3 s up, 3 s down)",
@@ -258,7 +258,7 @@
               "load": "RPE 7"
             },
             {
-              "ex": "Standing barbell calf raise off a plate (or single-leg DB off a step)",
+              "ex": "Single-leg DB calf raise off a step (straight knee; reps per leg)",
               "dose": "2 × 15",
               "load": "RPE 8",
               "tempo": "3-0-3"
@@ -335,7 +335,7 @@
               "tempo": "2-0-1"
             },
             {
-              "ex": "B3 · Standing barbell calf raise off a plate (or single-leg DB off a step)",
+              "ex": "B3 · Single-leg DB calf raise off a step (straight knee; reps per leg)",
               "dose": "2 × 15",
               "load": "RPE 8",
               "tempo": "3-0-3",
@@ -354,7 +354,7 @@
               "note": "Thick pad under knees; catch yourself at ~45°"
             },
             {
-              "ex": "C1 · Seated barbell calf raise — bar padded on knees, feet on a plate",
+              "ex": "C1 · Seated barbell calf raise — unrack from pins at knee height, pad on bar, feet on a plate",
               "dose": "2 × 15",
               "load": "RPE 8",
               "tempo": "3-0-3"
@@ -453,7 +453,7 @@
               "tempo": "3–5-s lowering"
             },
             {
-              "ex": "C3 · Seated barbell calf raise (soleus) — bar padded on knees, feet on a plate",
+              "ex": "C3 · Seated barbell calf raise (soleus) — unrack from pins at knee height, pad on bar, feet on a plate",
               "dose": "2 × 12",
               "load": "RPE 8",
               "tempo": "3-0-3 (3 s up, 3 s down)",
@@ -471,7 +471,7 @@
               "load": "RPE 7"
             },
             {
-              "ex": "Standing barbell calf raise off a plate (or single-leg DB off a step)",
+              "ex": "Single-leg DB calf raise off a step (straight knee; reps per leg)",
               "dose": "2 × 12",
               "load": "RPE 8",
               "tempo": "3-0-3"
@@ -548,7 +548,7 @@
               "tempo": "2-0-1"
             },
             {
-              "ex": "B3 · Standing barbell calf raise off a plate (or single-leg DB off a step)",
+              "ex": "B3 · Single-leg DB calf raise off a step (straight knee; reps per leg)",
               "dose": "3 × 12",
               "load": "RPE 8",
               "tempo": "3-0-3",
@@ -561,7 +561,7 @@
           "rest": "move straight through; 30 s after each round",
           "items": [
             {
-              "ex": "C1 · Seated barbell calf raise — bar padded on knees, feet on a plate",
+              "ex": "C1 · Seated barbell calf raise — unrack from pins at knee height, pad on bar, feet on a plate",
               "dose": "2 × 12",
               "load": "RPE 8",
               "tempo": "3-0-3"
@@ -660,7 +660,7 @@
               "tempo": "3–5-s lowering"
             },
             {
-              "ex": "C3 · Seated barbell calf raise (soleus) — bar padded on knees, feet on a plate",
+              "ex": "C3 · Seated barbell calf raise (soleus) — unrack from pins at knee height, pad on bar, feet on a plate",
               "dose": "2 × 10",
               "load": "RPE 8",
               "tempo": "3-0-3 (3 s up, 3 s down)",
@@ -678,7 +678,7 @@
               "load": "RPE 7"
             },
             {
-              "ex": "Standing barbell calf raise off a plate (or single-leg DB off a step)",
+              "ex": "Single-leg DB calf raise off a step (straight knee; reps per leg)",
               "dose": "2 × 10",
               "load": "RPE 8",
               "tempo": "3-0-3"
@@ -755,7 +755,7 @@
               "tempo": "2-0-1"
             },
             {
-              "ex": "B3 · Standing barbell calf raise off a plate (or single-leg DB off a step)",
+              "ex": "B3 · Single-leg DB calf raise off a step (straight knee; reps per leg)",
               "dose": "3 × 10",
               "load": "RPE 8",
               "tempo": "3-0-3",
@@ -768,7 +768,7 @@
           "rest": "move straight through; 30 s after each round",
           "items": [
             {
-              "ex": "C1 · Seated barbell calf raise — bar padded on knees, feet on a plate",
+              "ex": "C1 · Seated barbell calf raise — unrack from pins at knee height, pad on bar, feet on a plate",
               "dose": "2 × 10",
               "load": "RPE 8",
               "tempo": "3-0-3"
@@ -867,7 +867,7 @@
               "tempo": "3–5-s lowering"
             },
             {
-              "ex": "C3 · Seated barbell calf raise (soleus) — bar padded on knees, feet on a plate",
+              "ex": "C3 · Seated barbell calf raise (soleus) — unrack from pins at knee height, pad on bar, feet on a plate",
               "dose": "2 × 8",
               "load": "RPE 8",
               "tempo": "3-0-3 (3 s up, 3 s down)",
@@ -885,7 +885,7 @@
               "load": "RPE 7"
             },
             {
-              "ex": "Standing barbell calf raise off a plate (or single-leg DB off a step)",
+              "ex": "Single-leg DB calf raise off a step (straight knee; reps per leg)",
               "dose": "2 × 8",
               "load": "RPE 8",
               "tempo": "3-0-3"
@@ -962,7 +962,7 @@
               "tempo": "2-0-1"
             },
             {
-              "ex": "B3 · Standing barbell calf raise off a plate (or single-leg DB off a step)",
+              "ex": "B3 · Single-leg DB calf raise off a step (straight knee; reps per leg)",
               "dose": "3 × 8",
               "load": "RPE 8",
               "tempo": "3-0-3",
@@ -975,7 +975,7 @@
           "rest": "move straight through; 30 s after each round",
           "items": [
             {
-              "ex": "C1 · Seated barbell calf raise — bar padded on knees, feet on a plate",
+              "ex": "C1 · Seated barbell calf raise — unrack from pins at knee height, pad on bar, feet on a plate",
               "dose": "2 × 8",
               "load": "RPE 8",
               "tempo": "3-0-3"
@@ -1092,8 +1092,8 @@
               "dose": "2 × 60 s"
             },
             {
-              "ex": "Standing barbell calf raise",
-              "dose": "2 × 10",
+              "ex": "Single-leg DB calf raise off a step",
+              "dose": "2 × 10 per leg",
               "tempo": "3-0-3"
             }
           ]
